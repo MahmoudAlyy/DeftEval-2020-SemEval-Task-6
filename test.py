@@ -30,6 +30,8 @@ def dotString(str):
 here = os.path.dirname(os.path.realpath(__file__))
 #here2 = here + "\\temp"
 here2 = here + "\\task1_converted"
+#here2 = here + "\\New"
+
 strings = []
 all_words = []
 
@@ -40,11 +42,10 @@ for filename in os.listdir(here2):
     f = open(f_name, "r", encoding="utf-8")
     line = f.readline()
     dl = 1
-    while line:# and dl < 10:
+    while line: # and dl < 5:
         x = line.split("\"")  # split by ("")
 
         if x[1] == "" or x[1] == " ":  # " "" 1 The concept of “ specific use ” involves some sort of commercial application ."	"0"    <--- this line cause an error so i just skip it
-            #print("hiii")
             line = f.readline()
             continue
 
@@ -52,8 +53,17 @@ for filename in os.listdir(here2):
             # check if line starts with number if so remove the dot after it
             x[1] = x[1][x[1].find('.')+1:]
 
+        ############## FINDER ##############################################################
+        if ";" in x[1][:-1]:
+            colon = colon + 1
+            if int(x[len(x)-2]) == 1:
+                colon_def = colon_def + 1
+
         x[1] = numString(x[1])
         x[1] = re.sub(r'http\S+', "<link>", x[1])  # remove links
+
+          
+    
         x[1] = dotString(x[1])
 
         x[1] = x[1].replace('( [ link ] )', '<link>')
@@ -64,11 +74,8 @@ for filename in os.listdir(here2):
         #x[1] = re.sub('[^a-zA-Z<>]', ' ', x[1])  # might not remove
         x[1] = x[1].strip()
 
-        if ":" in x[1]:
-            colon = colon + 1
-            #print(x[len(x)-2])
-            if  int(x[len(x)-2]) == 1:
-                colon_def = colon_def + 1 
+        
+
         strings.append((x[1], int(x[len(x)-2])))
         dl = dl + 1
         line = f.readline()
@@ -86,8 +93,8 @@ for st, v in strings:
 print("def = ", defc)
 print("no def = ", nodefc)
 
-print("colon = ",colon)
-print("colon def = ",colon_def)
+print("semi colon = ",colon)
+print("semi colon def = ",colon_def)
 
 
 ### TF IDF CODE ###

@@ -1,0 +1,7 @@
+" 2006 ."	"0"
+" New York : Free Press , 95 - 96 ."	"0"
+" The eIF-2 protein bound to GTP binds to the small 40S ribosomal subunit ."	"0"
+" RFLPs ( sometimes pronounced “ rif - lips ” ) are detected when the DNA of an individual is cut with a restriction endonuclease that recognizes specific sequences in the DNA to generate a series of DNA fragments , which are then analyzed by gel electrophoresis ."	"1"
+" size 12 { "" 180 "" / "" 100 "" = 9 / 5 "" . """	"0"
+" { }"	"0"
+" } { } The Kelvin scale is the temperature scale that is commonly used in science ."	"0"

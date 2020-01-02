@@ -6,15 +6,13 @@ import re
 import pickle
 
 here = os.path.dirname(os.path.realpath(__file__))
-here2 = here + "\\New"
+#here2 = here + "\\New"
 #here2 = here + "\\temp"
-#here2 = here + "\\task1_converted"
-
+here2 = here + "\\task1_converted"
 
 
 
 ### check if number exist in a string an replace it with <num>
-### dk if its a problem or not if 123str123 ->  123<num>123 
 def numString(str):
     x = re.search(r'\d+', str)
     while x != None:
@@ -38,24 +36,56 @@ for filename in os.listdir(here2):
     dl = 1
     while line:# and dl<10 :
         x = line.split("\"")        # split by ("")
-        if x[1] == "" or x[1] == " ":                ###  " "" 1 The concept of “ specific use ” involves some sort of commercial application ."	"0"    <--- this line cause an error so i just skip it    
+        
+        if x[1] == "" or x[1] == " " or x[1].isspace():                ###  " "" 1 The concept of “ specific use ” involves some sort of commercial application ."	"0"    <--- this line cause an error so i just skip it    
             line = f.readline()                 
             continue
+        
+        ### switch to lower
+        x[1] = x[1].lower()     
 
+        ### check if line starts with number if so remove the dot after it
         if x[1][1].isdigit():
-            x[1] = x[1][x[1].find('.')+1:]      ### check if line starts with number if so remove the dot after it
-        
-        x[1] = numString(x[1])
-        x[1] = re.sub(r'http\S+', "<link>", x[1])     ### remove links
-        x[1] = dotString(x[1])
-        
-        x[1] = x[1].replace('( [ link ] )','<link>')  
-        x[1] = re.sub(r"\b[a-zA-Z]\b", "", x[1])        ### remove single char form string
-        x[1] = x[1].lower()     # switch to lower
+            x[1] = x[1][x[1].find('.')+1:] 
 
-        x[1] = re.sub('[^a-zA-Z<>]', ' ', x[1])             ### might not remove
-        x[1] = x[1].strip()
         
+        ### replace floating point (dots)
+        x[1] = re.sub('\d+\.\d+', '<num>', x[1])
+
+        ### replace chemisty values
+        x[1] = re.sub(r"\b[a-zA-Z][a-zA-z0-9]*[0-9]\b", "<chem>", x[1])
+
+        ### replace intergers
+        x[1] = numString(x[1])
+
+        ### replace links (dots)
+        x[1] = re.sub(r'http\S+', "<link>", x[1])
+
+        ### replace i.e  & i.e . (dots)
+        x[1] = x[1].replace("i.e ","")
+        x[1] = x[1].replace("i.e . ","")
+
+        ### replace u.s. (dots) # only u.s. exists in corpus
+        x[1] = x[1].replace("u.s.", "us")
+
+        ### for names like S. I. Tomonaga
+        x[1] = x[1].replace(". ", "")
+
+        ### so they all links have same format         
+        x[1] = x[1].replace('( [ link ] )','<link>') 
+        x[1] = x[1].replace('[ link ]','<link>') 
+
+
+
+        ### remove single char form string
+        x[1] = re.sub(r"\b[a-zA-Z]\b", "", x[1])   
+        # Water ’s   ->  Water ’
+        # Sentence example that needs single char removal -> “ ( a ) whether the average person 
+
+        x[1] = re.sub('[^a-zA-Z<>]', ' ', x[1])    
+
+        
+
         strings.append( (x[1] , int(x[len(x)-2])))
         dl = dl +1
         line = f.readline()
@@ -74,7 +104,7 @@ print("def = ",defc)
 print("no def = ",nodefc)
 
 
-### TF IDF CODE ###
+### TF IDF CODE ### 
 # tfidf = TfidfVectorizer(min_df=2 , max_df=0.5 , ngram_range=(1,3))
 # features = tfidf.fit_transform(st for st,v in strings)
 
@@ -89,9 +119,14 @@ print("no def = ",nodefc)
 #     columns=tfidf.get_feature_names()
 # ))
 
+### output to txt file so i can read it with my eyes, the start.py reads from pickle obj 
+w_name = here + "\\sentences&def.txt"
+f= open(w_name,"w+")
 for item in strings:
-   print(item[0])
+   f.write(item[0]+"\t"+str(item[1])+"\n" )
 
+
+### pickle save
 save_dir = here + "\\sentences&def.pkl"
 pickle.dump( strings, open(save_dir, "wb" ) )
 
