@@ -1,35 +1,32 @@
-#from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.feature_extraction.text import TfidfVectorizer
 import pandas as pd
 import os
 import re
+import nltk
+
 here = os.path.dirname(os.path.realpath(__file__))
-#here = here + "\\temp"
-here = here + "\\task1_converted"
+here = here + "\\temp"
+#here = here + "\\task1_converted"
 strings = []
+all_words = []
 str
 for filename in os.listdir(here):
     f_name = here + "\\" + filename
     f=open(f_name,"r",encoding="utf-8")
     line = f.readline()
     dl = 1
-    while line: # and dl<5 :
+    while line and dl<5 :
         x = line.split("\"") # split by ("")
-        #print(x)
-        if x[1] == " " or "":
-            print("error in file name : ",filename, "line = ",dl)
-            print("error in string",x)
-            line = f.readline()
-            continue
-
-        if x[1][1].isdigit() :
-            x[1] = x[1][x[1].find(".")+1:]
         
         x[1] = x[1].replace('( [ link ] )','')             ### might not remove idk yet
-        x[1] = x[1].strip()     # remove white spavce
         x[1] = x[1].lower()     # switch to lower
-        x[1] = x[1][0:-1]       # remove last dot
-        #print(x[1])
-        #print(x[len(x)-2])
+
+        x[1] = re.sub('[^a-zA-Z]', ' ', x[1])
+        x[1]  = re.sub(r'\s+', ' ', x[1] )
+
+
+        all_words =all_words [nltk.word_tokenize(x[1])]
+        print(all_words)
         
         strings.append( (x[1] , int(x[len(x)-2])))
         dl = dl +1
@@ -47,6 +44,9 @@ for st,v in strings:
 
 print("def = ",defc)
 print("no def = ",nodefc)
+
+
+### TF IDF CODE ###
 # tfidf = TfidfVectorizer(min_df=2 , max_df=0.5 , ngram_range=(1,3))
 # features = tfidf.fit_transform(st for st,v in strings)
 
@@ -60,3 +60,6 @@ print("no def = ",nodefc)
 #     features.todense(),
 #     columns=tfidf.get_feature_names()
 # ))
+
+
+
