@@ -37,6 +37,7 @@ all_words = []
 
 colon = 0
 colon_def  = 0
+numLines = 0
 for filename in os.listdir(here2):
     f_name = here2 + "\\" + filename
     f = open(f_name, "r", encoding="utf-8")
@@ -44,8 +45,11 @@ for filename in os.listdir(here2):
     dl = 1
     while line: # and dl < 5:
         x = line.split("\"")  # split by ("")
-
+        numLines = numLines +1
         if x[1] == "" or x[1] == " ":  # " "" 1 The concept of “ specific use ” involves some sort of commercial application ."	"0"    <--- this line cause an error so i just skip it
+            print(filename)
+            print(dl)
+            print(x)
             line = f.readline()
             continue
 
@@ -95,6 +99,8 @@ print("no def = ", nodefc)
 
 print("semi colon = ",colon)
 print("semi colon def = ",colon_def)
+
+print("line = ",numLines)
 
 
 ### TF IDF CODE ###

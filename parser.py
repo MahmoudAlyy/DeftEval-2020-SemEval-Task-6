@@ -4,6 +4,8 @@ import pandas as pd
 import os
 import re
 import pickle
+from nltk.corpus import stopwords
+
 
 here = os.path.dirname(os.path.realpath(__file__))
 #here2 = here + "\\New"
@@ -35,6 +37,8 @@ for filename in os.listdir(here2):
     line = f.readline()
     dl = 1
     while line:# and dl<10 :
+       
+        sentence = []
         x = line.split("\"")        # split by ("")
         
         if x[1] == "" or x[1] == " " or x[1].isspace():                ###  " "" 1 The concept of “ specific use ” involves some sort of commercial application ."	"0"    <--- this line cause an error so i just skip it    
@@ -80,13 +84,19 @@ for filename in os.listdir(here2):
         ### remove single char form string
         x[1] = re.sub(r"\b[a-zA-Z]\b", "", x[1])   
         # Water ’s   ->  Water ’
-        # Sentence example that needs single char removal -> “ ( a ) whether the average person 
+        # Sentence example that needs single char removal -> “ ( a ) whether the average person
+        # " 830 . Most fungal hyphae are divided into separate cells by endwalls called septa ( singular , septum ) ( [ link ] a , c ) .
 
         x[1] = re.sub('[^a-zA-Z<>]', ' ', x[1])    
 
-        
+        stopWords = set(stopwords.words('english'))
 
-        strings.append( (x[1] , int(x[len(x)-2])))
+        for w in x[1].split():
+            if w not in stopWords:
+                sentence.append(w)
+
+
+        strings.append( (sentence, int(x[len(x)-2])))
         dl = dl +1
         line = f.readline()
 
@@ -123,7 +133,7 @@ print("no def = ",nodefc)
 w_name = here + "\\sentences&def.txt"
 f= open(w_name,"w+")
 for item in strings:
-   f.write(item[0]+"\t"+str(item[1])+"\n" )
+   f.write(', '.join(item[0])+"\t"+str(item[1])+"\n")
 
 
 ### pickle save
