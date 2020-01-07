@@ -55,7 +55,7 @@ def write_converted(source_file, output_file):
 
 if __name__ == '__main__':
 
-    source = "C:\\Files\\git\\DeftEval-2020-SemEval-Task-6\\deft_files\\train"
-    dest = "C:\\Files\\git\\DeftEval-2020-SemEval-Task-6\\task1_test"
-    convert(Path(sys.argv[1]), Path(sys.argv[2]))
-    #convert(Path(source),Path(dest))
+    source = "C:\\Files\\git\\DeftEval-2020-SemEval-Task-6\\deft_files\\dev"
+    dest = "C:\\Files\\git\\DeftEval-2020-SemEval-Task-6\\test_data_converted"
+    #convert(Path(sys.argv[1]), Path(sys.argv[2]))
+    convert(Path(source),Path(dest))

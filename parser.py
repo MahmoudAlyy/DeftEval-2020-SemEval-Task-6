@@ -10,7 +10,9 @@ from nltk.corpus import stopwords
 here = os.path.dirname(os.path.realpath(__file__))
 #here2 = here + "\\New"
 #here2 = here + "\\temp"
-here2 = here + "\\task1_converted"
+#here2 = here + "\\task1_converted"
+here2 = here + "\\test_data_converted"
+
 
 
 
@@ -39,6 +41,7 @@ for filename in os.listdir(here2):
     while line:# and dl<10 :
        
         sentence = []
+        sentf=" "
         x = line.split("\"")        # split by ("")
         
         if x[1] == "" or x[1] == " " or x[1].isspace():                ###  " "" 1 The concept of “ specific use ” involves some sort of commercial application ."	"0"    <--- this line cause an error so i just skip it    
@@ -95,8 +98,9 @@ for filename in os.listdir(here2):
             if w not in stopWords:
                 sentence.append(w)
 
+        sentf = sentf.join(sentence)
 
-        strings.append( (sentence, int(x[len(x)-2])))
+        strings.append( (sentf, int(x[len(x)-2])))
         dl = dl +1
         line = f.readline()
 
@@ -130,13 +134,18 @@ print("no def = ",nodefc)
 # ))
 
 ### output to txt file so i can read it with my eyes, the start.py reads from pickle obj 
-w_name = here + "\\sentences&def.txt"
+#w_name = here + "\\sentences&def.txt"
+w_name = here + "\\TEST_sentences&def.txt"
+
 f= open(w_name,"w+")
 for item in strings:
-   f.write(', '.join(item[0])+"\t"+str(item[1])+"\n")
+   f.write(item[0]+"\t"+str(item[1])+"\n")
+
 
 
 ### pickle save
-save_dir = here + "\\sentences&def.pkl"
+#save_dir = here + "\\sentences&def.pkl"
+save_dir = here + "\\TEST_sentences&def.pkl"
+
 pickle.dump( strings, open(save_dir, "wb" ) )
 
