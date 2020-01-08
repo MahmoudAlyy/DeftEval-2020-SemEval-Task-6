@@ -10,8 +10,15 @@ from nltk.corpus import stopwords
 here = os.path.dirname(os.path.realpath(__file__))
 #here2 = here + "\\New"
 #here2 = here + "\\temp"
-#here2 = here + "\\task1_converted"
+
+here2 = here + "\\task1_converted"
+w_name = here + "\\sentences&def.txt"
+save_dir = here + "\\sentences&def.pkl"
+
+
 here2 = here + "\\test_data_converted"
+w_name = here + "\\TEST_sentences&def.txt"
+save_dir = here + "\\TEST_sentences&def.pkl"
 
 
 
@@ -63,7 +70,9 @@ for filename in os.listdir(here2):
         x[1] = re.sub(r"\b[a-zA-Z][a-zA-z0-9]*[0-9]\b", "<chem>", x[1])
 
         ### replace intergers
-        x[1] = numString(x[1])
+        #x[1] = numString(x[1])
+        x[1] = re.sub(r"\b[0-9].*[0-9]\b", '<num>', x[1])
+
 
         ### replace links (dots)
         x[1] = re.sub(r'http\S+', "<link>", x[1])
@@ -85,12 +94,12 @@ for filename in os.listdir(here2):
 
 
         ### remove single char form string
-        x[1] = re.sub(r"\b[a-zA-Z]\b", "", x[1])   
+        x[1] = re.sub(r"\b[a-zA-Z;:]\b", "", x[1])   
         # Water ’s   ->  Water ’
         # Sentence example that needs single char removal -> “ ( a ) whether the average person
         # " 830 . Most fungal hyphae are divided into separate cells by endwalls called septa ( singular , septum ) ( [ link ] a , c ) .
 
-        x[1] = re.sub('[^a-zA-Z<>]', ' ', x[1])    
+        x[1] = re.sub('[^a-zA-Z<>;:]', ' ', x[1])    
 
         stopWords = set(stopwords.words('english'))
 
@@ -134,8 +143,7 @@ print("no def = ",nodefc)
 # ))
 
 ### output to txt file so i can read it with my eyes, the start.py reads from pickle obj 
-#w_name = here + "\\sentences&def.txt"
-w_name = here + "\\TEST_sentences&def.txt"
+
 
 f= open(w_name,"w+")
 for item in strings:
@@ -144,8 +152,7 @@ for item in strings:
 
 
 ### pickle save
-#save_dir = here + "\\sentences&def.pkl"
-save_dir = here + "\\TEST_sentences&def.pkl"
+
 
 pickle.dump( strings, open(save_dir, "wb" ) )
 
