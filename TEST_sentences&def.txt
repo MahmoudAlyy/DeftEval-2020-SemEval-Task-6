@@ -2,12 +2,12 @@ becomes clear definition application scientific method plays major role science	
 scientific method method research defined steps include experiments careful observation	1
 forest ecosystem	0
 ecosystem consists living things particular area together abiotic non living parts environment nitrogen soil rain water	1
-highest level organization link biosphere collection ecosystems represents zones life earth	1
+highest level organization biosphere collection ecosystems represents zones life earth	1
 glycogen storage form glucose humans vertebrates made monomers glucose	1
 glycogen animal equivalent starch highly branched molecule usually stored liver muscle cells	0
 dna rna made monomers known nucleotides	0
 nucleotides combine form polynucleotide dna rna	1
-examine link b diagram plant cell see structure external plasma membrane called cell wall	0
+examine link diagram plant cell see structure external plasma membrane called cell wall	0
 cell wall rigid covering protects cell provides structural support gives shape cell	1
 fungal protistan cells also cell walls	0
 mendel followed alleles inherited parent offspring	0
@@ -15,37 +15,37 @@ early twentieth century biologists field study known population genetics began s
 hard determine process dominates often nearly impossible determine cause change allele frequencies occurrence	0
 event initiates allele frequency change isolated part population typical original population called founder effect	1
 natural selection random drift founder effects lead significant changes genome population	0
-example link organisms orange region evolved single ancestor amniotic eggs	0
+example organisms orange region evolved single ancestor amniotic eggs	0
 consequently organisms also amniotic eggs make single clade also called monophyletic group	0
 clades must include descendants branch point	0
 evidence indicates first two billion years earth existence atmosphere anoxic meaning molecular oxygen	1
 therefore organisms grow without oxygen anaerobic organisms able live	1
 seedless plants historically played role human life uses tools fuel medicine	0
 dried peat moss sphagnum commonly used fuel parts europe considered renewable resource	0
-sphagnum bogs link cultivated cranberry blueberry bushes	0
+sphagnum bogs cultivated cranberry blueberry bushes	0
 bilateral symmetry involves division animal sagittal plane resulting two mirror image right left halves butterfly link crab human body	1
-animals bilateral symmetry head tail anterior vs posterior front back dorsal vs ventral right left sides link	1
-soils b horizon contains nodules layer calcium carbonate	1
-c horizon soil base includes parent material plus organic inorganic material broken form soil	1
+animals bilateral symmetry head tail anterior vsposterior front back dorsal vsventral right left sides	1
+soils horizon contains nodules layer calcium carbonate	1
+horizon soil base includes parent material plus organic inorganic material broken form soil	1
 parent material may either created natural place transported elsewhere present location	0
 animals evolved different types digestive systems aid digestion different foods consume	0
 simplest example gastrovascular cavity found organisms one opening digestion	0
 platyhelminthes flatworms ctenophora comb jellies cnidaria coral jelly fish sea anemones use type digestion	0
-second part small intestine called jejunum shown link	1
+second part small intestine called jejunum shown	1
 hydrolysis nutrients continued carbohydrates amino acids absorbed intestinal lining	0
-earthworms annelids slightly evolved excretory structures called nephridia illustrated link b	0
-earthworms annelids slightly evolved excretory structures called nephridia illustrated link b	1
+earthworms annelids slightly evolved excretory structures called nephridia illustrated	0
+earthworms annelids slightly evolved excretory structures called nephridia illustrated	1
 pair nephridia present segment earthworm	0
 birds reptiles terrestrial arthropods convert toxic ammonia uric acid closely related compound guanine guano instead urea	0
 mammals also form uric acid breakdown nucleic acids	0
 environment consists numerous pathogens agents usually microorganisms cause diseases hosts	1
 host organism invaded often harmed pathogen	1
 pathogens include bacteria protists fungi infectious organisms	1
-immune system specific cells described link shown link receptors recognize pamps	0
+immune system specific cells described shown receptors recognize pamps	0
 macrophage large phagocytic cell engulfs foreign particles pathogens	1
 macrophages recognize pamps via complementary pattern recognition receptors prrs	0
 mast cell leukocyte produces inflammatory molecules histamine response large pathogens	1
-basophil leukocyte like neutrophil releases chemicals stimulate inflammatory response illustrated link	1
+basophil leukocyte like neutrophil releases chemicals stimulate inflammatory response illustrated	1
 basophils also involved allergy hypersensitivity responses induce specific types inflammatory responses	0
 sexual reproduction genetic material two individuals combined produce genetically diverse offspring differ parents	0
 genetic diversity sexually produced offspring thought give species better chance surviving unpredictable changing environment	0
@@ -54,14 +54,14 @@ male reproductive system scrotum houses testicles testes singular testis includi
 testes pair male reproductive organs produce sperm reproductive hormones	1
 inductive reasoning form logical thinking uses related observations arrive general conclusion	1
 type reasoning common descriptive science	0
-actual step converts light energy chemical energy takes place multiprotein complex called photosystem two types found embedded thylakoid membrane photosystem ii psii photosystem psi link	1
+actual step converts light energy chemical energy takes place multiprotein complex called photosystem two types found embedded thylakoid membrane photosystem ii psii photosystem psi	1
 two complexes differ basis oxidize source low energy electron supply reduce place deliver energized electrons	0
 computer software used analyze vast amount data generated proteomic analysis	0
 genomic proteomic scale analyses part systems biology	0
 systems biology study whole biological systems genomes proteomes based interactions within system	1
 european bioinformatics institute human proteome organization hupo developing establishing effective tools sort enormous pile systems biology data	0
 definition also includes emerging diseases previously control	0
-approximately percent recently emerging infectious diseases affecting humans zoonotic diseases zoonoses diseases primarily infect animals transmitted humans viral origin bacterial origin	1
+approximately percent recently emerging infectious diseases affecting humans zoonotic diseases zoonoses diseases primarily infect animals transmitted humans <scolon> viral origin bacterial origin	1
 brucellosis example prokaryotic zoonosis emerging regions necrotizing fasciitis commonly known flesh eating bacteria increasing virulence last years unknown reasons	1
 map shows regions bacterial diseases emerging reemerging	0
 cell biology developed twentieth century became clear mitochondria organelles responsible producing atp using aerobic respiration	0
@@ -82,7 +82,7 @@ animal groups display radial symmetry	0
 types symmetry well suited meet unique demands particular animal lifestyle radial symmetry arrangement body parts around central axis seen drinking glass pie	1
 results animals top bottom surfaces left right sides front back	0
 examples acoelomates include animals phylum platyhelminthes also known flatworms	0
-animals true coelom called eucoelomates coelomates link	1
+animals true coelom called eucoelomates coelomates	1
 true coelom arises entirely within mesoderm germ layer lined epithelial membrane	1
 coelom protostomes formed process called schizocoely meaning development solid mass mesoderm splits apart forms hollow opening coelom	1
 deuterostomes differ coelom forms process called enterocoely	0
@@ -91,16 +91,16 @@ second distinction types cleavage protostomes deuterostomes	0
 addition spiral cleavage protostomes also undergo determinate cleavage	0
 means even early stage developmental fate embryonic cell already determined	1
 invertebrates invertebrata animals contain bony structures cranium vertebrae	1
-simplest invertebrates parazoans include phylum porifera sponges link	0
+simplest invertebrates parazoans include phylum porifera sponges	0
 soil particles mm diameter sand	1
 soil particles mm called silt even smaller particles less mm diameter called clay	1
-soils dominant particle size contain mixture sand silt humus soils called loams	1
+soils dominant particle size contain mixture sand silt humus <scolon> soils called loams	1
 seed germinates primary root emerges protected root tip covering coleorhiza	1
 next primary shoot emerges protected coleoptile covering shoot tip	1
 upon exposure light	0
-neural control thermoregulationthe nervous system important thermoregulation illustrated link	0
+neural control thermoregulationthe nervous system important thermoregulation illustrated	0
 processes homeostasis temperature control centered hypothalamus advanced animal brain	0
-large part digestion occurs stomach shown link	0
+large part digestion occurs stomach shown	0
 stomach saclike organ secretes gastric digestive juices	1
 ph stomach	0
 adipose tissue connective tissue found throughout body	1
@@ -110,7 +110,7 @@ fatty acids released bloodstream tissues use atp production	0
 glucocorticoids primarily affect glucose metabolism stimulating glucose synthesis	0
 glucocorticoids also anti inflammatory properties inhibition immune system	0
 malpighian tubules insects	0
-malpighian tubules found lining gut species arthropods bee illustrated link	0
+malpighian tubules found lining gut species arthropods bee illustrated	0
 usually found pairs number tubules varies species insect	0
 prrs molecules macrophages dendritic cells contact external environment	1
 monocyte type white blood cell circulates blood lymph differentiates macrophages moves infected tissue	1
@@ -121,13 +121,13 @@ inhibits release gnrh fsh cause spermatogenesis slow	0
 cells blastula rearrange spatially form three layers cells	1
 process called gastrulation	0
 gastrulation blastula folds upon form three layers cells	0
-species exists everywhere example venus flytrap endemic small area north south carolina	0
+species exists everywhere <scolon> example venus flytrap endemic small area north south carolina	0
 endemic species one naturally found specific geographic area usually restricted size	1
-species generalists species live wide variety geographic areas raccoon example native north central america	1
+species generalists species live wide variety geographic areas <scolon> raccoon example native north central america	1
 greenhouse gases atmosphere thermal energy reflected back earth surface	0
 greenhouse gases absorb emit radiation important factor greenhouse effect warming earth due carbon dioxide greenhouse gases atmosphere evidence supports relationship atmospheric concentrations carbon dioxide temperature carbon dioxide rises global temperature rises	1
 greenhouse gases absorb emit radiation important factor greenhouse effect warming earth due carbon dioxide greenhouse gases atmosphere evidence supports relationship atmospheric concentrations carbon dioxide temperature carbon dioxide rises global temperature rises	1
-since concentration atmospheric carbon dioxide increased ppm ppm	0
+since	0
 many tools originally designed study human populations	0
 example life tables detail life expectancy individuals within population initially developed life insurance companies set insurance rates	1
 fact term demographics commonly used discussing humans living populations studied using approach	0
@@ -144,10 +144,10 @@ major limitation approaches removing individual organisms natural ecosystem alte
 net consumer productivity energy content available organisms next trophic level	1
 assimilation biomass energy content generated per unit area present trophic level accounting energy lost due incomplete ingestion food energy used respiration energy lost waste	1
 assimilation biomass energy content generated per unit area present trophic level accounting energy lost due incomplete ingestion food energy used respiration energy lost waste	1
-link illustrates average time individual water molecule may spend earth major water reservoirs	0
+illustrates average time individual water molecule may spend earth major water reservoirs	0
 residence time measure average time individual water molecule stays particular reservoir	1
 large amount earth water locked place reservoirs ice beneath ground ocean thus unavailable short term cycling surface water evaporate	0
-atmospheric nitrogen associated several effects earth ecosystems including production acid rain nitric acid hno greenhouse gas nitrous oxide n potentially causing climate change	0
+atmospheric nitrogen associated several effects earth ecosystems including production acid rain nitric acid <chem> greenhouse gas nitrous oxide n potentially causing climate change	0
 major effect fertilizer runoff saltwater freshwater eutrophication process whereby nutrient runoff causes excess growth microorganisms depleting dissolved oxygen levels killing ecosystem fauna	1
 variable part experiment vary change experiment	1
 control group contains every feature experimental group except given manipulation hypothesized	1
@@ -156,11 +156,11 @@ return example excess hydrogen ions blood formation carbonic acid major directio
 however carbonic acid also leave body carbon dioxide gas via exhalation instead converted back bicarbonate ion thus driving reaction right chemical law known law mass action	0
 reactions important maintaining homeostasis blood	0
 movement electrons one element another referred electron transfer	1
-link illustrates sodium na one electron outer electron shell	0
+illustrates sodium na one electron outer electron shell	0
 monomers release water molecules byproducts	1
 type reaction known dehydration synthesis means put together losing water	0
-photosystems basic structure number antenna proteins chlorophyll molecules bound surround reaction center photochemistry takes place	1
-photosystem serviced light harvesting complex passes energy sunlight reaction center consists multiple antenna proteins contain mixture chlorophyll b molecules well pigments like carotenoids	0
+photosystems basic structure <scolon> number antenna proteins chlorophyll molecules bound surround reaction center photochemistry takes place	1
+photosystem serviced light harvesting complex passes energy sunlight reaction center <scolon> consists multiple antenna proteins contain mixture chlorophyll molecules well pigments like carotenoids	0
 absorption single photon distinct quantity packet light chlorophylls pushes molecule excited state	0
 mistakes duplication distribution chromosomes lead mutations may passed forward every new cell produced abnormal cell	0
 prevent compromised cell continuing divide internal control mechanisms operate three main cell cycle checkpoints	0
@@ -183,24 +183,24 @@ art connection	0
 squamata scaly arose late permian extant species include lizards snakes	0
 found continents except antarctica	0
 arboreal heritage primates resulted hands feet adapted brachiation climbing swinging trees	1
-adaptations include limited rotating shoulder joint big toe widely separated toes thumbs widely separated fingers except humans allow gripping branches stereoscopic vision two overlapping fields vision eyes allows perception depth gauging distance	1
+adaptations include limited stereoscopic vision two overlapping fields vision eyes allows perception depth gauging distance	1
 characteristics primates brains larger mammals claws modified flattened nails typically one offspring per pregnancy trend toward holding body upright	0
 several species evolved evolutionary branch includes humans although species surviving member	0
 term hominin used refer species evolved split primate line thereby designating species closely related humans chimpanzees	1
 hominins predominantly bipedal include groups likely gave rise species including australopithecus homo habilis homo erectus non ancestral groups considered cousins modern humans neanderthals	0
 considerable debate origins anatomically modern humans homo sapiens sapiens	0
-discussed earlier h erectus migrated africa asia europe first major wave migration million years ago	0
+discussed earlier herectus migrated africa asia europe first major wave migration million years ago	0
 plants tell time day time year sensing using various wavelengths sunlight	0
 phototropism directional response allows plants grow towards even away light	1
-monocots petals usually number three multiples three dicots number petals four five multiples four five	0
+monocots petals usually number three multiples three <scolon> dicots number petals four five multiples four five	0
 together calyx corolla known perianth	1
 third whorl contains male reproductive structures known androecium	1
-monocot seeds link testa tegmen seed coat fused	0
+monocot seeds testa tegmen seed coat fused	0
 seed germinates primary root emerges protected root tip covering coleorhiza	1
 next primary shoot emerges protected coleoptile covering shoot tip	1
 torpor process leads decrease activity metabolism allows animals survive adverse conditions	1
 torpor used animals long periods entering state hibernation winter months case enables maintain reduced body temperature	0
-hibernation ground squirrels achieve abdominal temperature c f bear internal temperature maintained higher c f	0
+hibernation ground squirrels achieve abdominal temperature	0
 torpor occurs summer months high temperatures little water called estivation	1
 blood glucose levels decline normal levels example meals glucose utilized rapidly exercise hormone glucagon released alpha cells pancreas	0
 glucagon raises blood glucose levels eliciting called hyperglycemic effect stimulating breakdown glycogen glucose skeletal muscle cells liver cells process called glycogenolysis	1
@@ -208,15 +208,15 @@ movements classified gliding angular rotational called special movements	1
 inversion involves soles feet moving inward toward midline body	1
 eversion opposite inversion movement sole foot outward away midline body	1
 women approach mid mid ovaries begin lose sensitivity fsh lh	0
-menstrual periods become less frequent finally cease menopause	1
+menstrual periods become less frequent finally cease <scolon> menopause	1
 still eggs potential follicles ovaries without stimulation fsh lh produce viable egg released	0
 first milankovitch cycles	0
 milankovitch cycles describe effects slight changes earth orbit earth climate	1
 length milankovitch cycles ranges years	0
 bilateral symmetry involves division animal sagittal plane resulting two mirror image right left halves butterfly link crab human body	1
-animals bilateral symmetry head tail anterior vs posterior front back dorsal vs ventral right left sides link	1
+animals bilateral symmetry head tail anterior vsposterior front back dorsal vsventral right left sides	1
 europe feudal society mutually supportive system	0
-lords owned land knights gave military service lord carried justice serfs worked land return protection offered lord castle walls city fled times danger invaders	1
+lords owned land <scolon> knights gave military service lord carried justice <scolon> serfs worked land return protection offered lord castle walls city fled times danger invaders	1
 huge storehouses filled food times need	0
 peasant also worked inca ruler number days per month public works projects requirement known mita	1
 example peasants constructed rope bridges made grass span mountains fast flowing icy rivers	0
@@ -235,18 +235,18 @@ tennessee born william walker along army sixty mercenaries gained control centra
 previously walker launched successful invasion mexico dubbing conquered land republic sonora	0
 relatively short period time walker dislodged sonora mexican authorities forced retreat back united states	0
 state federal challenges arose due obvious appearance monopoly implied sole ownership enterprises composing entire industry	1
-ohio supreme court ruled standard oil company must dissolve monopoly control refining operations u violation state federal statutes rockefeller shifted yet another legal entity called holding company model	0
+ohio supreme court ruled standard oil company must dissolve monopoly control refining operations us violation state federal statutes rockefeller shifted yet another legal entity called holding company model	0
 holding company model created central corporate entity controlled operations multiple companies holding majority stock enterprise	1
 remained convinced economic political systems superior two superpowers quickly found drawn conflict	0
 decades long struggle technological ideological supremacy became known cold war	1
-called include direct military confrontation soviet u troops cold war fought variety weapons espionage surveillance political assassinations propaganda formation alliances nations	0
+called include direct military confrontation soviet us troops cold war fought variety weapons espionage surveillance political assassinations propaganda formation alliances nations	0
 communist governments came power elsewhere world american policymakers extended strategy containment became known domino theory eisenhower administration neighbors communist nations assumption likely succumb allegedly dangerous infectious ideology	1
 like dominos toppling one another entire regions would eventually controlled soviets	0
 keeping goal balanced budget eisenhower switched emphasis defense larger conventional forces greater stockpiles nuclear weapons	0
 new look strategy embraced nuclear massive retaliation plan nuclear response first soviet strike devastating attackers would able respond	1
 new look strategy embraced nuclear massive retaliation plan nuclear response first soviet strike devastating attackers would able respond	1
 labeled approach mutually assured destruction mad	0
-party factions hoped make voices heard others wished disrupt convention altogether	0
+party factions hoped make voices heard <scolon> others wished disrupt convention altogether	0
 among antiwar protestors hippies yippies members leftist anarchistic youth international party organized jerry rubin abbie hoffman called establishment new nation consisting cooperative institutions replace currently existence	1
 demonstrate contempt establishment proceedings inside hall yippies nominated pig named pigasus president	0
 indeed england could commit large scale colonization americas long spain appeared ready invade ireland scotland	0
@@ -264,7 +264,7 @@ thousands african slaves found growing harvesting processing sugarcane arduous r
 slaves cut long cane stalks hand bring mill cane juice extracted	0
 gilded age unfolded presidents little power due large part highly contested elections relative popular majorities razor thin	0
 two presidents electoral college without popular majority	0
-subsequent discovery gold california spurred interest connecting atlantic pacific oceans led construction panama railway began operations	0
+subsequent discovery gold california	0
 several attempts france construct canal failed due combination financial crises health hazards including malaria yellow fever led deaths thousands french workers	0
 laws touched important aspects great society centerpiece johnson plan eradication poverty united states	0
 war poverty termed fought many fronts	0
@@ -273,28 +273,28 @@ conservation energy physicists like call principle energy neither created destro
 even scientists discovered new forms energy conservation energy always found apply	0
 important characteristic work done nonconservative force adds removes mechanical energy system	1
 friction example creates thermal energy dissipates removing energy system	0
-furthermore even thermal energy retained captured fully converted back work lost recoverable sense well amount happy face erased depends path taken eraser points b work done friction	0
+furthermore even thermal energy retained captured fully converted back work lost recoverable sense well amount happy face erased depends path taken eraser points work done friction	0
 rules special cases laws conservation charge conservation energy	1
 rules known kirchhoff rules inventor gustav kirchhoff	0
 circuit reduced combination series parallel connections	0
 kirchhoff rules special applications laws conservation charge energy used analyze	0
 analog meters needle swivels point numbers scale opposed digital meters numerical readouts similar hand held calculator	1
-heart analog meters device called galvanometer denoted g current flow galvanometer ig ig size rsub size g produces proportional needle deflection	1
+heart analog meters device called galvanometer denoted gcurrent flow galvanometer ig ig size produces proportional needle deflection	1
 since magnetic forces act distance define magnetic field represent magnetic forces	0
 pictorial representation magnetic field lines useful visualizing strength direction magnetic field	0
-shown link direction magnetic field lines defined direction north end compass needle points	1
+shown direction magnetic field lines defined direction north end compass needle points	1
 objectives arranged way described parfocal	0
 second eyepiece also referred ocular several lenses slide inside cylindrical barrel	1
 focusing ability provided movement objective lens eyepiece	0
 situations object velocity relative medium river medium velocity relative observer solid ground	0
-velocity object relative observer sum velocity vectors indicated link link	0
+velocity object relative observer sum velocity vectors indicated	0
 unfortunately impossible	0
 second law thermodynamics also states regard using heat transfer work second expression second law	0
 may noticed dogs respond sound dog whistle produces sound range human hearing	0
 elephants known respond frequencies hz	0
 perception frequency called pitch	1
 us excellent relative pitch means tell whether one sound different frequency another	0
-see link	0
+see	0
 experiment franklin demonstrated connection lightning static electricity	0
 sparks drawn key hung kite string electrical storm	0
 contact forces baseball bat explained small scale interaction charges atoms molecules close proximity	1
@@ -303,24 +303,24 @@ action distance force objects close enough atoms touch	0
 separated atomic diameters	0
 polarity water moleculesthe best example charge screening water molecule represented h h	0
 water strongly polar molecule	0
-electrons oxygen atom two hydrogen atoms tend remain closer oxygen nucleus hydrogen nuclei	1
+two hydrogen atoms tend remain closer oxygen nucleus hydrogen nuclei	1
 radar common application microwaves first developed world war ii	0
 detecting timing microwave echoes radar systems determine distance objects diverse clouds aircraft	0
 many crystals solutions rotate plane polarization light passing	1
 substances said optically active	0
-examples include sugar water insulin collagen see link	0
+examples include sugar water insulin collagen see	0
 michelson morley experiment demonstrated speed light vacuum independent motion earth sun	0
 observed microscope small particles fluid	0
 motion caused random thermal motions fluid molecules colliding particles fluid called brownian motion	1
-see link	0
-link shows energy level diagram convenient way display energy states	0
+see	0
+shows energy level diagram convenient way display energy states	0
 present discussion take allowed energy levels electron	0
 division mesons baryons actually based observed decay modes strictly associated masses	0
 mesons hadrons decay leptons leave hadrons implies mesons conserved number	1
 baryons hadrons always decay another baryon	1
 color got	0
 whiter shade pale	0
-mentioned shown link quarks carry another quantum number call color	0
+mentioned shown quarks carry another quantum number call color	0
 course color sense visible light properties analogous three primary three secondary colors	0
 time forces become distinct almost interactions longer unified symmetric	0
 transition gut electroweak example spontaneous symmetry breaking conditions spontaneously evolved point forces longer unified breaking symmetry	1
@@ -328,38 +328,38 @@ analogous phase transition universe clever proposal american physicist alan guth
 interesting several prominent physicists worked concept including einstein firmly believed nature would find way prohibit objects	0
 black holes difficult observe directly small light comes directly	0
 fact light comes inside event horizon defined distance object escape velocity exactly speed light	1
-radius event horizon known schwarzschild radius rs rs size r rsub size given	0
+radius event horizon known schwarzschild radius rs rs size given	0
 weight also called force gravity pervasive force acts times must counteracted keep object falling	1
-definitely notice must support weight heavy object pushing hold stationary illustrated link	0
+definitely notice must support weight heavy object pushing hold stationary illustrated	0
 may number digital clock heartbeat position sun sky	0
 physics definition time simple time change interval change occurs	1
 impossible know time passed unless something changes	0
 property body remain rest remain motion constant velocity called inertia	1
 newton first law often called law inertia	0
 know experience objects inertia others	0
-link shows displacement harmonic oscillator different amounts damping	0
+shows displacement harmonic oscillator different amounts damping	0
 want damp oscillations suspension car may want system return equilibrium quickly possible critical damping defined condition damping oscillator results returning quickly possible equilibrium position critically damped system may overshoot equilibrium position	1
-critical damping represented curve link	0
+critical damping represented curve	0
 times	0
 distance separating two strands make dna structure nm distance separating individual atoms within base nm	0
 one might wonder electrostatic forces play larger role biology many charged molecules	0
 reason electrostatic force diluted due screening molecules	0
 due presence charges cell	0
-voltage sources shown link	0
+voltage sources shown	0
 devices create potential difference supply current connected resistance	0
 small scale potential difference creates electric field exerts force charges causing current	0
-kirchhoff first rule junction rule application conservation charge junction illustrated link	1
-current flow charge charge conserved thus whatever charge flows junction must flow	0
+kirchhoff first rule junction rule application conservation charge junction <scolon> illustrated	1
+current flow charge charge conserved <scolon> thus whatever charge flows junction must flow	0
 thinking molecules many slits analogous oscillating ropes understand light specific polarization get	0
 axis polarizing filter direction along filter passes electric field em wave see link	1
 slender arrow represents ray unpolarized light	1
 bold arrows represent direction polarization individual waves composing ray	1
-baryons b b size b	0
+baryons	0
 conservation total baryon number general rule first noted nuclear physics observed total number nucleons always conserved nuclear reactions decays	0
 rule nuclear physics one consequence conservation total baryon number	0
 whimsical names common particle physics reflecting personalities modern physicists	0
 originally three quark types flavors proposed account known mesons baryons	0
-quark flavors named u strange	0
+quark flavors named strange	0
 color consistent observations widely accepted	0
 quark theory including color called quantum chromodynamics qcd also named gell mann	1
 easy get confused two fields study interaction genes environment fields evolutionary psychology behavioral genetics	0
@@ -369,7 +369,7 @@ chromosome sequences dna make genes control partially control number visible cha
 chromosome sequences dna make genes control partially control number visible characteristics known traits eye color hair color	1
 single gene may multiple possible variations alleles	1
 signals neuron membrane potential held state readiness called resting potential	1
-like rubber band stretched waiting spring action ions line either side cell membrane ready rush across membrane neuron goes active membrane opens gates e sodium potassium pump allows movement ions across membrane	1
+like rubber band stretched waiting spring action ions line either side cell membrane ready rush across membrane neuron goes active membrane opens gates sodium potassium pump allows movement ions across membrane	1
 ions high concentration areas ready move low concentration areas positive ions ready move areas negative charge resting state sodium na higher concentrations outside cell tend move cell	0
 ear separated multiple sections	0
 outer ear includes pinna visible part ear protrudes heads auditory canal tympanic membrane eardrum	1
@@ -393,39 +393,39 @@ step rehearsal conscious repetition information remembered move stm long term me
 lashley find evidence engram rats still able find way maze regardless size location lesion	0
 based creation lesions animals reaction formulated equipotentiality hypothesis part one area brain involved memory damaged another part area take memory function lashley	1
 although lashley early work confirm existence engram modern psychologists making progress locating	0
-flashbulb memory exceptionally clear recollection important event link	1
+flashbulb memory exceptionally clear recollection important event	1
 first heard terrorist attacks	0
 disagreed however skinner strict behaviorist approach personality development felt thinking reasoning important components learning	0
 presented social cognitive theory personality emphasizes learning cognition sources individual differences personality	0
 social cognitive theory concepts reciprocal determinism observational learning self efficacy play part personality development	1
 social psychology examines people affect one another looks power situation	1
 social psychologists assert individual thoughts feelings behaviors much influenced social situations	1
-individual therapy also known individual psychotherapy individual counseling client clinician meet one one usually minutes hour	1
-meetings typically occur weekly every week sessions conducted confidential caring environment link	0
+individual therapy also known individual psychotherapy individual counseling client clinician meet one one usually hour	1
+meetings typically occur weekly every week sessions conducted confidential caring environment	0
 main symptoms schizophrenia include hallucinations delusions disorganized thinking disorganized abnormal motor behavior negative symptoms apa	1
 hallucination perceptual experience occurs absence external stimulation	1
 auditory hallucinations hearing voices occur roughly two thirds patients schizophrenia far common form hallucination andreasen	1
 characteristic like cleft chin example influenced single gene parent	0
-example call gene cleft chin b gene smooth chin b cleft chin dominant trait means dominant allele either one parent bb parents bb always result phenotype associated dominant allele	1
+example call gene cleft chin gene smooth chin cleft chin dominant trait means dominant allele either one parent bb parents bb always result phenotype associated dominant allele	1
 someone two copies allele said homozygous allele	1
 someone combination alleles given gene said heterozygous	1
 example smooth chin recessive trait means individual display smooth chin phenotype homozygous recessive allele bb imagine woman cleft chin mates man smooth chin	0
 type chin child	0
 remember classical conditioning something environment triggers reflex automatically researchers train organism react different stimulus	0
 turn second type associative learning operant conditioning	0
-operant conditioning organisms learn associate behavior consequence link	1
+operant conditioning organisms learn associate behavior consequence	1
 time rat hit lever pellet food came	0
 organism receives reinforcer time displays behavior called continuous reinforcement	1
 reinforcement schedule quickest way teach someone behavior especially effective training new behavior	0
 event schema also known cognitive script set behaviors feel like routine	1
-think walk elevator link	0
+think walk elevator	0
 working backwards useful heuristic begin solving problem focusing end result	1
-consider example live washington c invited wedding pm saturday philadelphia	0
+consider example live washington cand invited wedding pm saturday philadelphia	0
 people disorders display personality style odd eccentric	0
-cluster b disorders include antisocial personality disorder histrionic personality disorder narcissistic personality disorder borderline personality disorder	1
+cluster disorders include antisocial personality disorder histrionic personality disorder narcissistic personality disorder borderline personality disorder	1
 people disorders usually impulsive overly dramatic highly emotional erratic	0
 according dsm individual antisocial personality disorder sometimes referred psychopathy shows regard people rights feelings	1
-lack regard exhibited number ways include repeatedly performing illegal acts lying conning others impulsivity recklessness irritability aggressiveness toward others failure act responsible way e g leaving debts unpaid apa	0
+lack regard exhibited number ways include repeatedly performing illegal acts lying conning others impulsivity recklessness irritability aggressiveness toward others failure act responsible way leaving debts unpaid apa	0
 someone two copies allele said homozygous allele	1
 someone combination alleles given gene said heterozygous	1
 example smooth chin recessive trait means individual display smooth chin phenotype homozygous recessive allele bb imagine woman cleft chin mates man smooth chin	0
@@ -435,41 +435,41 @@ perspective psychotropic medications help improve symptoms associated disorders	
 ability perceive spatial relationships three dimensional space known depth perception	1
 depth perception describe things front behind side things	0
 people born deaf known congenital deafness	1
-many others begin suffer conductive hearing loss age genetic predisposition environmental effects including exposure extreme noise noise induced hearing loss shown link certain illnesses measles mumps damage due toxins found certain solvents metals	0
+many others begin suffer conductive hearing loss age genetic predisposition environmental effects including exposure extreme noise noise induced hearing loss shown certain illnesses measles mumps damage due toxins found certain solvents metals	0
 molecules food beverages consume dissolve saliva interact taste receptors tongue mouth throat	0
-taste buds formed groupings taste receptor cells hair like extensions protrude central pore taste bud link	1
-taste buds life cycle ten days two weeks even destroying burning tongue wo n long term effect grow right back	0
-robert sternberg developed another theory intelligence titled triarchic theory intelligence sees intelligence comprised three parts sternberg practical creative analytical intelligence link	1
+taste buds formed groupings taste receptor cells hair like extensions protrude central pore taste bud	1
+taste buds life cycle ten days two weeks even destroying burning tongue wo long term effect <scolon> grow right back	0
+robert sternberg developed another theory intelligence titled triarchic theory intelligence sees intelligence comprised three parts sternberg practical creative analytical intelligence	1
 cultures importance group supersedes importance individual achievement	0
 visit culture well relate values culture exemplifies cultural intelligence sometimes referred cultural competence	1
 consider example child physical growth adding inches height year year	0
 contrast theorists view development discontinuous believe development takes place unique stages occurs specific times ages	0
 type development change sudden infant ability conceive object permanence	0
-jean piaget another stage theorist studied childhood development link	0
+jean piaget another stage theorist studied childhood development	0
 instead approaching development psychoanalytical psychosocial perspective piaget focused children cognitive growth	0
 come	0
 beginning one cell structure birth prenatal development occurred orderly delicate sequence	0
 especially popular model describes dynamics persuasion elaboration likelihood model persuasion petty cacioppo	0
 elaboration likelihood model considers variables attitude change approach features source persuasive message contents message characteristics audience used determine attitude change occur	1
-according elaboration likelihood model persuasion two main routes play role delivering persuasive message central peripheral link	0
+according elaboration likelihood model persuasion two main routes play role delivering persuasive message central peripheral	0
 normative social influence people conform group norm fit feel good accepted group	1
 however informational social influence people conform believe group competent correct information particularly task situation ambiguous	1
 people often form judgments hold expectations people based age	0
 judgments expectations lead ageism prejudice discrimination toward individuals based solely age	1
 typically ageism occurs older adults ageism also occur toward younger adults	0
 delusions include belief one thoughts removed thought withdrawal thoughts placed inside one head thought insertion	1
-another type delusion somatic delusion belief something highly abnormal happening one body e g one kidneys eaten cockroaches	1
+another type delusion somatic delusion belief something highly abnormal happening one body one kidneys eaten cockroaches	1
 people obsessive compulsive disorder ocd experience thoughts urges intrusive unwanted obsessions need engage repetitive behaviors mental acts compulsions	1
 person disorder might example spend hours day washing hands constantly checking rechecking make sure stove faucet light turned	0
-specific phobias common united states around population meet criteria specific phobia point lifetime kessler et al	0
+specific phobias common <scolon> united states around population meet criteria specific phobia point lifetime kessler et al	0
 one type phobia agoraphobia listed dsm separate anxiety disorder	0
 agoraphobia literally means fear marketplace characterized intense fear anxiety avoidance situations might difficult escape receive help one experiences symptoms panic attack state extreme anxiety discuss shortly	1
 clear economics covers lot ground	0
-ground divided two parts microeconomics focuses actions individual agents within economy like households workers businesses macroeconomics looks economy whole	1
+ground divided two parts microeconomics focuses actions individual agents within economy like households workers businesses <scolon> macroeconomics looks economy whole	1
 focuses broad issues growth production number unemployed people inflationary increase prices government deficits levels exports imports	0
 command economies different	0
 command economy economic effort devoted goals passed ruler ruling class	1
-ancient egypt good example large part economic life devoted building pyramids like shown link pharaohs	0
+ancient egypt good example large part economic life devoted building pyramids like shown pharaohs	0
 economists use term demand refer amount good service consumers willing able purchase price	1
 demand based needs wants consumer may able differentiate need want economist perspective thing	0
 simplest example rate return interest rate	0
@@ -489,7 +489,7 @@ affirmative action limited especially controversial form means making effort rea
 driving certain car drinking particular soda wearing certain shoe unlikely bring fashionable friends fun automatically	0
 government rules advertising enforced federal trade commission ftc allow advertising contain certain amount exaggeration general delight using product	0
 however also demand claim presented fact must true	0
-intermediary one stands two parties example person arranges blind date two people one kind intermediary	1
+intermediary one stands two parties <scolon> example person arranges blind date two people one kind intermediary	1
 financial capital markets banks example financial intermediary institution operates saver deposits funds bank borrower receives loan bank	1
 bank serves financial intermediary unlike situation couple blind date saver borrower never meet	0
 similar pattern often operates within businesses	0
@@ -505,32 +505,32 @@ economies scale refers situation quantity output goes cost per unit goes	1
 idea behind warehouse stores like costco walmart	0
 comparisons high low incomes raise two different issues economic inequality poverty	0
 poverty measured number people fall certain level income called poverty line defines income needed basic standard living	1
-income inequality compares share total income wealth society received different groups example comparing share income received top share income received bottom	1
+income inequality compares share total income wealth society received different groups <scolon> example comparing share income received top	1
 earned income tax credit eitc first passed method assisting working poor tax system	1
-eitc one largest assistance program low income groups projections expected million households take advantage estimated cost billion	0
+eitc one largest assistance program low income groups projections billion	0
 insurance method households firms use prevent single event significant detrimental financial effect	1
 generally households firms insurance make regular payments called premiums	1
 insurance company prices premiums based probability certain events occurring among pool people	0
 another source financial capital bond	0
 bond financial contract borrower agrees repay amount borrowed also rate interest period time future	1
 corporate bond issued firms bonds also issued various levels government	0
-mechanisms saving available households divided several categories deposits bank accounts bonds stocks money market mutual funds stock bond mutual funds housing tangible assets like owning gold	0
-investments needs analyzed terms three factors expected rate return pay risk return much lower higher expected liquidity investment refers easily money financial assets exchanged good service	0
+mechanisms saving available households divided several categories deposits bank accounts <scolon> bonds <scolon> stocks <scolon> money market mutual funds <scolon> stock bond mutual funds <scolon> housing tangible assets like owning gold	0
+investments needs analyzed terms three factors liquidity investment refers easily money financial assets exchanged good service	0
 analysis discuss investments sections	0
 however wanted understand typical weather pattern chicago instead focusing one time extremes would need look entire pattern data time	0
 similar lesson applies study macroeconomics	0
-interesting study extreme situations like great depression many called great recession	0
+interesting study extreme situations like great depression	0
 want understand whole picture however need look long term	0
-population tripled twentieth century million million	0
+population tripled twentieth century	0
 human capital modern workers far higher today education skills workers risen dramatically	0
-one eighth u population completed high school one person completed four year college degree	0
+completed four year college degree	0
 monetary policy affects economy time lag typically long variable length	0
 remember monetary policy involves chain events central bank must perceive situation economy hold meeting make decision react tightening loosening monetary policy	0
 change monetary policy must percolate banking system changing quantity loans affecting interest rates	0
 central bankers believe neoclassical model economics accurately represents economy medium long term	0
-remember neoclassical model economy aggregate supply curve drawn vertical line level potential gdp shown link	0
+remember neoclassical model economy aggregate supply curve drawn vertical line level potential gdp shown	0
 neoclassical model level potential gdp natural rate unemployment exists economy producing potential gdp determined real economic factors	0
-link also illustrates peculiar traits supply demand diagrams foreign exchange market	0
+also illustrates peculiar traits supply demand diagrams foreign exchange market	0
 contrast cases supply demand considered foreign exchange market supply demand typically move time	0
 groups participants foreign exchange market like firms investors include buyers sellers	0
 every nation would prefer stable exchange rate facilitate international trade reduce degree risk uncertainty economy	0
@@ -541,7 +541,7 @@ decisions may work well poorly always irrational	0
 larger budget deficit increase demand financial capital	0
 private saving trade balance remain less financial capital available private investment physical capital	0
 government borrowing soaks available financial capital leaves less private investment physical capital result known crowding	1
-understand potential impact crowding consider situation u economy exceptional circumstances recession started late	0
+understand potential impact crowding consider situation us economy exceptional circumstances recession started late	0
 national economies make global economy remarkably diverse	0
 let us use one key indicator standard living gdp per capita quantify diversity	0
 quickly see quantifying diversity fraught challenges limitations	0
@@ -554,19 +554,19 @@ asian financial crisis late countries grew dramatically years leading crisis int
 david ricardo businessman economist member british parliament wrote treatise called principles political economy taxation	0
 treatise ricardo argued specialization free trade benefit trading partners even may relatively inefficient	1
 high income countries world primarily united states canada countries european union japan subsidize domestic farmers collectively billion per year	0
-contrast total amount foreign aid high income countries poor countries world billion per year less farm subsidies	0
+contrast total amount foreign aid high income countries poor countries world farm subsidies	0
 mass relatively large number people common interest though may close proximity lofland players popular facebook game farmville	1
 public hand unorganized relatively diffused group people share ideas libertarian political party	1
 two types crowds similar	0
 held scholars identified laws governed society sociologists could address problems poor education poverty abercrombie et al	0
 comte named scientific study social patterns positivism	0
-described philosophy series books called course positive philosophy general view positivism	0
+described philosophy series books called course positive philosophy	0
 sociologists identify different types families based one enters	0
 family orientation refers family person born	1
 family procreation describes one formed marriage	1
 polygyny refers man married one woman time	1
 reverse woman married one man time called polyandry	1
-far less common occurs percent world cultures altman ginat	0
+far less common occurs	0
 pattern tracing kinship called bilateral descent	0
 note kinship one traceable ancestry based blood marriage adoption	1
 sixty percent societies mostly modernized nations follow bilateral descent pattern	0
@@ -577,12 +577,12 @@ type model accounts changes family development fact today society childbearing a
 denomination large mainstream religious organization claim official state sponsored	1
 one religion among many	0
 story illustrates growing concern referred grade inflation term used describe observation correspondence letter grades achievements reflect changing downward direction time	1
-put simply used considered c level average often earns student b even	0
+put simply used considered level average often earns student even	0
 includes everything produced society including social rules	0
-sociologists often study culture using sociological imagination pioneer sociologist c wright mills described awareness relationship person behavior experience wider culture shaped person choices perceptions	1
+sociologists often study culture using sociological imagination pioneer sociologist cwright mills described awareness relationship person behavior experience wider culture shaped person choices perceptions	1
 way seeing people behavior relationship history social structure	0
 pastoral horticultural societies used small temporary tools digging sticks hoes agricultural societies relied permanent tools survival	1
-around b c e explosion new technology known agricultural revolution made farming possible profitable	1
+around explosion new technology known agricultural revolution made farming possible profitable	1
 one person associated multitude roles statuses	0
 even single status student complex role set array roles attached merton	0
 much required single role individuals experience role strain	0
@@ -623,8 +623,8 @@ though family societal models help guide person toward career personal choice pl
 class systems people option form exogamous marriages unions spouses different social categories	1
 marriage circumstances based values love compatibility rather social standing economics	0
 differences based cultural attitudes toward aging	0
-china several studies noted attitude filial piety deference respect one parents ancestors things defining virtues hsu hamilton	0
-cultural attitudes japan prior approximately supported idea elderly deserve assistance ogawa retherford	0
+china several studies noted attitude filial piety deference respect one parents ancestors things defining virtues hsu	0
+cultural attitudes japan prior approximately	0
 earliest gerontological theory functionalist perspective disengagement theory suggests withdrawing society social relationships natural part growing old	1
 several main points theory	0
 even sociologists able agree single meaning	0
@@ -648,62 +648,62 @@ pennsylvania example passed act gradual abolition slavery	0
 people born state enslaved mothers law passage would become indentured servants set free age twenty eight	1
 major problem articles confederation nation inability change without unanimous consent states	0
 framers learned lesson well	0
-shared overlapping powers become integral part contemporary u federalism	0
-concurrent powers range taxing borrowing making enforcing laws establishing court systems link	0
-elton e richter	0
+shared overlapping powers become integral part contemporary us federalism	0
+concurrent powers range taxing borrowing making enforcing laws establishing court systems	0
+elton erichter	0
 lastly three civil rights amendments fifteenth nineteenth twenty sixth prevent states federal government abridging citizens right vote based race sex age	0
 topic remains controversial states always ensured equal protection supremacy clause article vi constitution regulates relationships federal state governments declaring constitution federal law supreme law land	1
 means state law clashes federal law found within national government constitutional authority federal law prevails	0
-administrations presidents richard nixon ronald reagan attempts made reverse process nationalization restore states prominence policy areas federal government moved past	0
+administrations presidents richard nixon attempts made reverse process nationalization restore states prominence policy areas federal government moved past	0
 new federalism premised idea decentralization policies enhances administrative efficiency reduces overall public spending improves policy outcomes	0
 	0
 finally mandates come form partial preemption regulations whereby federal government sets national regulatory standards delegates enforcement state local governments	1
-example clean air act sets air quality regulations instructs states design implementation plans achieve standards link	1
+example clean air act sets air quality regulations instructs states design implementation plans achieve standards	1
 martha derthick	0
 number mandates continued rise especially costly states local authorities	0
 consider real id act federal law designed beef homeland security	0
 law requires driver licenses state issued identification cards dl ids contain standardized anti fraud security features specific data machine readable technology	1
 period supreme court decisions regarding meaning second amendment ambiguous best	0
-united states v miller supreme court upheld national firearms act prohibition sawed shotguns largely basis possession gun related goal promoting well regulated militia	1
-united states v miller u	0
+united states vmiller supreme court upheld national firearms act prohibition sawed shotguns largely basis possession gun related goal promoting well regulated militia	1
+united states vmiller	0
 finding generally interpreted meaning second amendment protected right states organize militia rather individual right thus lower courts generally found firearm regulations including city state laws virtually outlawed private ownership firearms constitutional	0
 reexamination past cases dna evidence revealed dozens people wrongfully executed	0
-elizabeth lopatto many innocent people sentenced death forbes april http www forbes com sites elizabethlopatto many innocent people sentenced death e ae cc march	0
-example claude jones executed murder based era dna testing single hair determined time however better dna testing technology later found victim dave mann dna tests undermine evidence texas execution new results show claude jones put death flawed evidence texas observer november http www texasobserver org texas observer exclusive dna tests undermine evidence texas execution march	0
+elizabeth lopatto many innocent people sentenced death forbes	0
+example claude jones executed murder based	0
 perhaps result cases seven additional states abolished capital punishment since	0
-nineteen states district columbia longer apply death penalty new cases several states carry executions despite sentencing people death see example states without death penalty death penalty information center http www deathpenaltyinfo org states without death penalty march	0
+	0
 remains seen whether gradual trend toward elimination death penalty states continue whether supreme court eventually decide follow former justice harry blackmun decision longer tinker machinery death abolish completely	0
 modern era laws actions challenged strict scrutiny rarely upheld	0
-strict scrutiny however legal basis supreme court upholding legality internment japanese americans world war ii discussed later chapter korematsu v united states u	0
+strict scrutiny however legal basis supreme court	0
 finally affirmative action consists government programs policies designed benefit members groups historically subject discrimination	0
 much controversy surrounding affirmative action whether strict scrutiny applied cases	0
 although methods usually sufficient ensure blacks kept away polls dedicated african americans manage register vote despite obstacles placed way	0
 ensure vote largely meaningless white elites used control democratic party create white primary primary elections whites allowed vote	1
 state party organizations argued private groups rather part state government obligation follow fifteenth amendment requirement deny right vote basis race	0
-congress proposed later became twenty fourth amendment banned poll tax elections federal state local office amendment went effect ratified early	1
-several southern states continued require residents pay poll taxes order vote state elections case harper v virginia board elections supreme court declared requiring payment poll tax order vote election level unconstitutional harper v virginia board elections u	1
+	1
+several southern states continued require residents pay poll taxes order vote state elections	1
 	0
 stanton anthony denounced fifteenth amendment granted voting rights black men women race keyssar	0
 fight women rights die however	0
 stanton anthony formed national woman suffrage association nwsa demanded constitution amended grant right vote women	1
 also called lenient divorce laws end sex discrimination employment	0
 result	0
-alf landon predicted win percent popular vote end received percent arthur evans predict landon electoral vote chicago tribune october	0
-franklin roosevelt another term story demonstrates need scientific conducting polls	0
+alf landon predicted win percent popular vote <scolon> end received	0
+franklin droosevelt another term story demonstrates need scientific conducting polls	0
 	0
 even stretching truth costly publisher	0
 star magazine published headline addiction nightmare katie drug shocker leading readers believe actress katie holmes taking drugs	0
 article magazine focuses addictive quality scientology sessions rather drugs implication headline different	0
 presidential run barack obama promised run transparent white house	0
-christopher beam tmi president slate november	0
+christopher beam tmi president slate	0
 yet office found transparency makes difficult get work done limited access questions	0
-first year office george w bush criticized obama closed government gave question answer sessions journalists obama gave	0
+first year office george wbush criticized obama closed government gave	0
 legislative seats doled parties based proportion support party receives	0
 green party united states might win single congressional seat years thanks plurality voting proportional system stands chance get seats legislature regardless	0
 example assume green party gets percent vote	0
 fostering sense loyalty party insulate changes system improve odds winning elections	0
 party electorate members voting public consider part political party consistently prefer candidates one party	1
-however one person one vote decision reynolds v simms supreme court argued everyone vote count roughly regardless lived reynolds v simms u	0
+however one person one vote decision reynolds vsimms	0
 districts adjusted would roughly equal populations	0
 several states therefore make dramatic changes electoral maps next two redistricting cycles	0
 lobbyists representing variety organizations employ different techniques achieve objectives	0
@@ -719,16 +719,16 @@ also established foundations came known office first lady complete news reporter
 starting new york early supreme court focused establishing rules procedures perhaps trying carve place new government third branch	1
 however given difficulty getting justices even show permanent home building decades finding footing early days proved monumental task	0
 people opposed law understood congressional repeal would happen time soon looked courts help	0
-challenged constitutionality law national federation independent business v sebelius hoping supreme court would overturn national federation independent business v sebelius u	0
+challenged constitutionality law national federation independent business vsebelius hoping supreme court would overturn national federation independent business vsebelius	0
 practice judicial review enabled law critics exercise opportunity even though hopes ultimately dashed narrow margin supreme court upheld health care law constitutional extension congress power tax	1
-south carolina governor nikki haley delivers state state address state house columbia south carolina january	0
+south carolina governor nikki haley delivers	0
 instance states provide governors power line item veto	0
 line item veto gives governors ability strike line individual portions bill letting remainder pass law	0
 addition approximately percent governors power amendatory veto allows send bill back legislature request specific amendment	0
 council elected executive system voters elect members council executive	1
 executive performs functions similar state governor	0
 number laws passed decades end second world war late created framework citizens exercise bureaucratic oversight	0
-two important laws freedom information act government sunshine act https www law cornell edu uscode text https www gpo gov fdsys pkg statute pdf statute pg pdf june	0
+two important laws freedom information act	0
 like many modern bureaucratic reforms united states emerged period heightened skepticism government activities	0
 turn instead vast government bureaucracy provide policy guidance	0
 example congress passed clean water act dictated steps taken improve water quality throughout country	1
@@ -738,25 +738,25 @@ private goods finite run overused even short term	0
 fact private goods excludable finite makes tradable	0
 societies operating survival mode contrast people tend focus short term problem solving long term planning	0
 second social welfare policy creates automatic stimulus society building safety net catch members society suffering economic hardship fault	0
-individual family safety net makes difference eating starving entire economy could prevent economic recession sliding broader damaging depression	0
+individual family safety net makes difference eating starving <scolon> entire economy could prevent economic recession sliding broader damaging depression	0
 foreign policy	0
 think several levels goals state officials seek attain abroad values give rise objectives means instruments used pursue	1
-eugene r wittkopf christopher jones charles w kegley jr	0
+eugene rwittkopf christopher mjones charles wkegley jr	0
 president barack obama second left vice president joe biden far left secretary state hillary clinton second right secretary defense robert gates far right national security advisers situation room white house watching successful raid osama bin laden compound may	0
 secretary state nation chief diplomat serves president cabinet oversees foreign service	1
 secretary defense civilian nonmilitary head armed services housed department defense also key cabinet member foreign policy mentioned	1
-third cabinet secretary secretary homeland security critically important foreign policy overseeing massive department homeland security link	0
+third cabinet secretary secretary homeland security critically important foreign policy overseeing massive department homeland security	0
 twenty first century neo isolationism means distancing united states united nations international organizations get way	0
 strategy selective engagement retaining strong military presence remaining engaged across world alliances formal installations used protect national security interests united states	1
 however strategy also seeks avoid world policeman	0
 goal unite gay men otherwise lived secrecy fight abuse	0
 mattachine society often worked daughters bilitis lesbian rights organization	1
 among early issues targeted mattachine society police entrapment male homosexuals	0
-see vern l bullough	0
-april	0
-percentage americans college degrees rises paying degrees tops financial challenges http www pbs org newshour rundown percentage americans college degrees rises paying degrees tops financial challenges	0
-majority men women congress also engaged either state local politics business people practiced law elected congress manning p table	0
-approximately percent senate house representatives male percent members congress people color link	0
+see vern lbullough	0
+	0
+percentage americans college degrees rises paying degrees tops financial challenges	0
+majority men women congress also engaged either state local politics business people practiced law elected congress manning	0
+approximately percent members congress people color	0
 nation laws made primarily well educated white male professionals businessmen	0
 official photograph th congress depicts fairly uniform nature congressional representation	0
 laws made parliament property owning males allowed vote representatives parliament	0
@@ -768,15 +768,15 @@ example right bear arms protection second amendment right provide shelter provis
 fifth amendment requires among things people deprived life liberty property except legal proceeding also greatly influenced english law well protections granted virginians virginia declaration rights	1
 supreme court decided hear several key case appeals variety states brought opponents marriage equality lost federal courts	0
 outcome hearing cases federal court decisions four states affirmed added states federal circuit districts brought total number states permitting sex marriage thirty	0
-adam liptak supreme court delivers tacit win gay marriage new york times october	0
-obergefell v hodges case sweeping effect supreme court clearly identified constitutional right marriage based fourteenth amendment obergefell v hodges u	1
+adam liptak supreme court delivers tacit win gay marriage new york times	0
+	1
 george washington secretary treasury alexander hamilton championed legislative efforts create publicly chartered bank	0
 hamilton establishment bank united states fully within congress authority hoped bank would foster economic development print circulate paper money provide loans government	0
 medicaid provides medical assistance indigent medicare provides health insurance elderly disabled school nutrition programs created	1
-elementary secondary education act higher education act head start preschool program established expand educational opportunities equality link	0
-clean air act highway safety act fair packaging labeling act promoted environmental consumer protection	0
-op ed wake windsor june http www advocate com commentary op ed wake windsor june	0
-final analysis sex marriage protected constitutional right decided u supreme court took issue heard obergefell v hodges	1
+elementary secondary education act established expand educational opportunities equality	0
+clean air act promoted environmental consumer protection	0
+op ed wake windsor june	0
+final analysis sex marriage protected constitutional right decided us supreme court took issue heard obergefell vhodges	1
 addition factors discussed help overcome collective action problems external events sometimes help mobilize groups potential members	0
 scholars argue disturbance theory explain groups mobilize due event political economic social environment david truman	0
 supreme court declared power judicial review power hamilton referred expressly mentioned constitution	0
@@ -785,13 +785,13 @@ consider health care example	0
 president barack obama signed law patient protection affordable care act aca statute brought significant changes nation healthcare system	0
 goal providing widely attainable affordable health insurance health care obamacare hailed soundly denounced others bad policy	0
 judiciary today continues dual court system courts national state levels	0
-levels three basic tiers consisting trial courts appellate courts finally courts last resort typically called supreme courts top link	0
+levels three basic tiers consisting trial courts appellate courts finally courts last resort typically called supreme courts top	0
 decisions higher courts binding lower courts	0
 precedent set ruling particularly supreme court decisions builds principles guidelines set earlier cases frames ongoing operation courts steering direction entire system	0
 reliance precedent enabled federal courts operate logic consistency helped validate role key interpreters constitution law legitimacy particularly vital united states citizens elect federal judges justices still subject rulings	0
 circuit courts started trial courts federal criminal cases civil suits including initiated united states involving citizens different states	0
-early judges local district judge two supreme court justices formed circuit court panel	0
-american judicature society malia reddick http www americanbar org content dam aba migrated justicecenter justice publicdocuments judicial selection roadmap authcheckdam pdf	0
+early judges <scolon> local district judge two supreme court justices formed circuit court panel	0
+american judicature society malia reddick	0
 president nominee discussed sometimes hotly debated senate judiciary committee	0
 committee vote candidate must confirmed majority vote full senate	0
 even present day court anthony kennedy reagan appointee become notorious court swing vote sometimes siding conservative justices sometimes	0
@@ -809,22 +809,22 @@ totalitarianism government important citizens controls aspects citizens lives	1
 citizens rights limited government allow political criticism opposition	0
 ultimately course issue decided civil war southern states seceding defend states rights determine destinies without interference federal government	0
 foremost among rights claimed southern states right decide whether residents would allowed slaves	0
-david potter	0
+david mpotter	0
 states poorer less literate white voters feared disenfranchised literacy understanding tests	0
 states introduced loophole known grandfather clause allow less literate whites vote	0
 grandfather clause exempted allowed vote state prior civil war descendants literacy understanding tests keyssar	1
-blacks allowed vote prior civil war white men voting time literacy tests loophole allowed illiterate whites vote link leaving obstacles place blacks wanted vote well	0
+blacks allowed vote prior civil war white men voting time literacy tests loophole allowed illiterate whites vote leaving obstacles place blacks wanted vote well	0
 thus white family chose sell house black family homeowners neighborhood tried sue seller court would hear case	0
-supreme court struck virginia law prohibited interracial marriage loving v virginia loving v virginia u	0
+	0
 also declared support equal rights amendment era mandated equal treatment regardless sex	1
 era written alice paul crystal eastman first proposed congress unsuccessfully	0
-next year worcester v georgia court ruled whites could enter tribal lands without tribe permission	0
+next year worcester vgeorgia court ruled whites could enter tribal lands without tribe permission	0
 white georgians however refused abide court decision president andrew jackson former indian fighter refused enforce	0
 francis paul prucha	0
 	0
 november day presidential election journalists found mitt romney transition website detailing republican candidate plans upcoming inauguration celebration criteria cabinet white house appointees leaving space video acceptance speech	0
-erik hayden mitt romney transition website president elect romney lives time november	0
-http newsfeed time com mitt romneys transition website president elect romney february	0
+erik hayden mitt romney transition website president elect romney lives time	0
+	0
 yet romney lost bid white house	0
 magazine might run story climate change interviewing representatives one side policy debate downplaying opposing view without acknowledging one sided nature coverage	0
 contrast writer publication makes clear reader viewer information offers one side political debate political message overt content	0
@@ -834,7 +834,7 @@ informal polls called straw polls informally collect opinions non random populat
 newspapers social media continue tradition unofficial polls mainly interested readers want know elections end	0
 	0
 line people right know national security always clear	0
-supreme court heard pentagon papers case u government sued new york times washington post stop release information classified study vietnam war	0
+supreme court heard pentagon papers case us government sued new york times washington post stop release information classified study vietnam war	0
 supreme court ruled government impose prior restraint media meaning government prevent publication information right limited	0
 civil war journalists expected access representing government including military	0
 william tecumseh sherman union general maintained distance press military	0
@@ -849,12 +849,12 @@ hugh heclo	0
 add explanation article iii alexander hamilton wrote details federal judiciary federalist	0
 powers stem elastic clause article section constitution provides congress authority make laws shall necessary proper carrying execution foregoing powers	0
 statement used support federal government playing role controversial policy matters provision healthcare expansion power levy collect taxes regulation interstate commerce	0
-finally article vi declared u constitution laws treaties made connection document supersede constitutions laws made state level	1
-finally article vi declared u constitution laws treaties made connection document supersede constitutions laws made state level	1
+finally article vi declared us constitution laws treaties made connection document supersede constitutions laws made state level	1
+finally article vi declared us constitution laws treaties made connection document supersede constitutions laws made state level	1
 clause better known supremacy clause makes clear conflict law central federal government regional state governments typically resolved favor central government	0
-although u constitution clearly allocated power federal government case articles confederation framers still respected important role states new government	0
+although us constitution clearly allocated power federal government case articles confederation framers still respected important role states new government	0
 theorists long proposed states also unique function differing political cultures attitudes beliefs functions expectations government	0
-book american federalism view states daniel elazar first theorized united states could divided three distinct political cultures moralistic individualistic traditionalistic link	0
+book american federalism view states daniel elazar first theorized united states could divided three distinct political cultures moralistic individualistic traditionalistic	0
 diffusion cultures throughout united states attributed migratory patterns immigrants settled spread across country east west coast	0
 new york atherton press	0
 delegate legislator represents elected office acts expressed interest even goes personal belief ultimately constituency best interest	1

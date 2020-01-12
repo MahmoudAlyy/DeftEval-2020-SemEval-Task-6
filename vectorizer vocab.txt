@@ -1,0 +1,16 @@
+one : 11
+example : 4
+called : 1
+scolon : 13
+cells : 3
+also : 0
+known : 7
+two : 15
+states : 14
+many : 9
+like : 8
+cell : 2
+first : 5
+new : 10
+people : 12
+government : 6

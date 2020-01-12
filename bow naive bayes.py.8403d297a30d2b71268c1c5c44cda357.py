@@ -57,8 +57,8 @@ df = pd.DataFrame(strings, columns=['sentence', 'value'])
 def try_loop(i,n):
     max_features_value = i
 
-    vectorizer = CountVectorizer( max_features=max_features_value,ngram_range=(1,n)) 
-    #vectorizer = TfidfVectorizer( max_features=max_features_value ,  ngram_range=(1,n))
+    # vectorizer = CountVectorizer( max_features=max_features_value,ngram_range=(1,n) ) 
+    vectorizer = TfidfVectorizer( max_features=max_features_value min_df=2 , max_df=0.5 , ngram_range=(1,3))
     
     train_x = vectorizer.fit_transform(df.sentence)
     
@@ -75,7 +75,8 @@ def try_loop(i,n):
 
     train_y = df.value
 
- 
+    #print(train_x.shape)
+    #print(train_y.shape)
 
 
 
@@ -89,6 +90,10 @@ def try_loop(i,n):
     test_x = test_x.toarray()
 
     test_y = test_df.value
+
+    #print(test_x.shape)
+    #print(test_y.shape)
+
 
 
     naive = MultinomialNB()
@@ -104,12 +109,12 @@ def try_loop(i,n):
 
 
 
-# w_name = here + "\\logs\\log test.txt"
+# w_name = here + "\\log.txt"
 # f = open(w_name, "w+")
 
-# for i in range(1,20):
+# for i in range(1,200,2):
 #     print(i)
-#     for n in range(1,2):
+#     for n in range(1,5,2):
 #         try:
 #             acc = try_loop(i,n)
 #         except:
@@ -120,4 +125,4 @@ def try_loop(i,n):
 
 #             #print(acc)
 
-print(try_loop(16,1))
+print(try_loop(30,1))

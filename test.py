@@ -47,9 +47,9 @@ for filename in os.listdir(here2):
         x = line.split("\"")  # split by ("")
         numLines = numLines +1
         if x[1] == "" or x[1] == " ":  # " "" 1 The concept of “ specific use ” involves some sort of commercial application ."	"0"    <--- this line cause an error so i just skip it
-            print(filename)
-            print(dl)
-            print(x)
+            #print(filename)
+            #print(dl)
+            #print(x)
             line = f.readline()
             continue
 
@@ -58,7 +58,7 @@ for filename in os.listdir(here2):
             x[1] = x[1][x[1].find('.')+1:]
 
         ############## FINDER ##############################################################
-        if ";" in x[1][:-1]:
+        if "," in x[1][:-1]:
             colon = colon + 1
             if int(x[len(x)-2]) == 1:
                 colon_def = colon_def + 1
@@ -94,11 +94,11 @@ for st, v in strings:
     else:
         print("?????????????????????")
 
-print("def = ", defc)
-print("no def = ", nodefc)
+#print("def = ", defc)
+#print("no def = ", nodefc)
 
-print("semi colon = ",colon)
-print("semi colon def = ",colon_def)
+print("comma = ",colon)
+print("comma def = ",colon_def)
 
 print("line = ",numLines)
 

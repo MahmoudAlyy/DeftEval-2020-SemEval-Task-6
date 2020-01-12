@@ -94,13 +94,25 @@ def transform(here2,w_name,save_dir):
 
 
 
+            ### REMOVING link and num ##############################
+            x[1] = x[1].replace('<link>',' ') 
+            x[1] = x[1].replace('<num>',' ') 
+
+
             ### remove single char form string
-            x[1] = re.sub(r"\b[a-zA-Z;:]\b", "", x[1])   
+            x[1] = re.sub(r"\b[a-zA-Z]\b", "", x[1])   
             # Water ’s   ->  Water ’
             # Sentence example that needs single char removal -> “ ( a ) whether the average person
             # " 830 . Most fungal hyphae are divided into separate cells by endwalls called septa ( singular , septum ) ( [ link ] a , c ) .
 
-            x[1] = re.sub('[^a-zA-Z<>;:]', ' ', x[1])    
+            ########### might remove one
+            x[1] = re.sub(r"\b[;]*.[;]", " <scolon>", x[1])
+            #x[1] = re.sub(r"\b[:]*.[:]", " <colon>", x[1])
+            #x[1] = re.sub(r"\b[,]*.[,]", " <comma>", x[1])
+
+
+
+            x[1] = re.sub('[^a-zA-Z<>]', ' ', x[1])
 
             stopWords = set(stopwords.words('english'))
 
@@ -143,9 +155,9 @@ def transform(here2,w_name,save_dir):
     #     columns=tfidf.get_feature_names()
     # ))
 
-    ### output to txt file so i can read it with my eyes, the start.py reads from pickle obj 
 
 
+    ### output to txt file so i can read it with my eyes 0.0 , the start.py reads from pickle obj 
     f= open(w_name,"w+")
     for item in strings:
         f.write(item[0]+"\t"+str(item[1])+"\n")
