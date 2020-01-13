@@ -58,7 +58,7 @@ for filename in os.listdir(here2):
             x[1] = x[1][x[1].find('.')+1:]
 
         ############## FINDER ##############################################################
-        if "," in x[1][:-1]:
+        if "<num>" in x[1][:-1]:
             colon = colon + 1
             if int(x[len(x)-2]) == 1:
                 colon_def = colon_def + 1

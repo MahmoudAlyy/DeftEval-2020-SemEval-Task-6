@@ -25,16 +25,30 @@ strings = pickle.load(open(save_dir, "rb"))
 
 dict = {}
 
+
+### FINDER ###
+tot_key=0
+key_def=0
+key = "<chem>"
+
 for sentence,val in strings:
     # sentence : string of words
     # vale : 1 -> has def , 0 -> no def
     # ur works start from here gg,hf,gl
+    #print(type(sentence))
+
+    if key in sentence:
+        tot_key = tot_key + 1
+        if val:
+            key_def = key_def +1
 
     for word in sentence.split():
-        if word not in dict:
+        if word in dict:
+            dict[word] = dict[word] + 1
+        else:
             dict[word] = 1
-        else :
-            dict[word] = dict[word]  + 1
+
+#print(tot_key,key_def)
    
 #print(dict)
 
@@ -104,12 +118,12 @@ def try_loop(i,n):
 
 
 
-# w_name = here + "\\logs\\log test.txt"
+# w_name = here + "\\logs\\log 200-300 1-4 chem.txt"
 # f = open(w_name, "w+")
 
-# for i in range(1,20):
+# for i in range(200,300):
 #     print(i)
-#     for n in range(1,2):
+#     for n in range(1,5):
 #         try:
 #             acc = try_loop(i,n)
 #         except:
@@ -120,4 +134,4 @@ def try_loop(i,n):
 
 #             #print(acc)
 
-print(try_loop(16,1))
+print(try_loop(267,2))

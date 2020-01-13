@@ -93,10 +93,10 @@ def transform(here2,w_name,save_dir):
             x[1] = x[1].replace('[ link ]','<link>') 
 
 
-
             ### REMOVING link and num ##############################
-            x[1] = x[1].replace('<link>',' ') 
-            x[1] = x[1].replace('<num>',' ') 
+            x[1] = x[1].replace('<link>',' ')  # 1191 413
+            x[1] = x[1].replace('<num>',' ')   # 2713 682
+            #x[1] = x[1].replace('<chem>', ' ')  # 1191 413
 
 
             ### remove single char form string
