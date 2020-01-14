@@ -1,0 +1,261 @@
+logistic
+Performance of Mean Word Vector on testing dataset...
+Score on dataset...
+
+Confusion Matrix:
+ [[521  58]
+ [206  80]]
+
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.72      0.90      0.80       579
+           1       0.58      0.28      0.38       286
+
+    accuracy                           0.69       865
+   macro avg       0.65      0.59      0.59       865
+weighted avg       0.67      0.69      0.66       865
+
+
+accuracy: 0.695
+f1 score: 0.659
+SGD
+-- Epoch 1
+Norm: 3.87, NNZs: 267, Bias: -1.050507, T: 18150, Avg. loss: 0.653806
+Total training time: 0.02 seconds.
+-- Epoch 2
+Norm: 3.85, NNZs: 267, Bias: -1.059913, T: 36300, Avg. loss: 0.616278
+Total training time: 0.04 seconds.
+-- Epoch 3
+Norm: 3.80, NNZs: 267, Bias: -1.051659, T: 54450, Avg. loss: 0.611448
+Total training time: 0.07 seconds.
+-- Epoch 4
+Norm: 3.79, NNZs: 267, Bias: -1.011812, T: 72600, Avg. loss: 0.608876
+Total training time: 0.11 seconds.
+-- Epoch 5
+Norm: 3.77, NNZs: 267, Bias: -1.027171, T: 90750, Avg. loss: 0.607466
+Total training time: 0.14 seconds.
+-- Epoch 6
+Norm: 3.77, NNZs: 267, Bias: -1.011784, T: 108900, Avg. loss: 0.606363
+Total training time: 0.18 seconds.
+-- Epoch 7
+Norm: 3.77, NNZs: 267, Bias: -1.035216, T: 127050, Avg. loss: 0.605897
+Total training time: 0.20 seconds.
+-- Epoch 8
+Norm: 3.75, NNZs: 267, Bias: -0.992341, T: 145200, Avg. loss: 0.605145
+Total training time: 0.22 seconds.
+-- Epoch 9
+Norm: 3.77, NNZs: 267, Bias: -1.023497, T: 163350, Avg. loss: 0.604703
+Total training time: 0.26 seconds.
+-- Epoch 10
+Norm: 3.77, NNZs: 267, Bias: -1.025547, T: 181500, Avg. loss: 0.604397
+Total training time: 0.29 seconds.
+-- Epoch 11
+Norm: 3.76, NNZs: 267, Bias: -1.022858, T: 199650, Avg. loss: 0.604017
+Total training time: 0.33 seconds.
+Convergence after 11 epochs took 0.33 seconds
+Performance of Mean Word Vector on testing dataset...
+Score on dataset...
+
+Confusion Matrix:
+ [[553  26]
+ [240  46]]
+
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.70      0.96      0.81       579
+           1       0.64      0.16      0.26       286
+
+    accuracy                           0.69       865
+   macro avg       0.67      0.56      0.53       865
+weighted avg       0.68      0.69      0.62       865
+
+
+accuracy: 0.692
+f1 score: 0.625
+Nearest Neighbors
+Score on dataset...
+
+Confusion Matrix:
+ [[434 145]
+ [179 107]]
+
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.71      0.75      0.73       579
+           1       0.42      0.37      0.40       286
+
+    accuracy                           0.63       865
+   macro avg       0.57      0.56      0.56       865
+weighted avg       0.61      0.63      0.62       865
+
+
+accuracy: 0.625
+f1 score: 0.619
+Linear SVM
+Score on dataset...
+
+Confusion Matrix:
+ [[561  18]
+ [248  38]]
+
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.69      0.97      0.81       579
+           1       0.68      0.13      0.22       286
+
+    accuracy                           0.69       865
+   macro avg       0.69      0.55      0.52       865
+weighted avg       0.69      0.69      0.61       865
+
+
+accuracy: 0.692
+f1 score: 0.615
+RBF SVM
+Score on dataset...
+
+Confusion Matrix:
+ [[571   8]
+ [278   8]]
+
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.67      0.99      0.80       579
+           1       0.50      0.03      0.05       286
+
+    accuracy                           0.67       865
+   macro avg       0.59      0.51      0.43       865
+weighted avg       0.62      0.67      0.55       865
+
+
+accuracy: 0.669
+f1 score: 0.553
+
+Decision Tree
+Score on dataset...
+
+Confusion Matrix:
+ [[547  32]
+ [247  39]]
+
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.69      0.94      0.80       579
+           1       0.55      0.14      0.22       286
+
+    accuracy                           0.68       865
+   macro avg       0.62      0.54      0.51       865
+weighted avg       0.64      0.68      0.61       865
+
+
+accuracy: 0.677
+f1 score: 0.606
+Random Forest
+Score on dataset...
+
+Confusion Matrix:
+ [[579   0]
+ [286   0]]
+C:\Users\hp\AppData\Local\Programs\Python\Python37\lib\site-packages\sklearn\metrics\_classification.py:1268: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.67      1.00      0.80       579
+           1       0.00      0.00      0.00       286
+
+    accuracy                           0.67       865
+   macro avg       0.33      0.50      0.40       865
+weighted avg       0.45      0.67      0.54       865
+
+
+accuracy: 0.669
+f1 score: 0.537
+Neural Net
+Score on dataset...
+
+Confusion Matrix:
+ [[551  28]
+ [226  60]]
+
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.71      0.95      0.81       579
+           1       0.68      0.21      0.32       286
+
+    accuracy                           0.71       865
+   macro avg       0.70      0.58      0.57       865
+weighted avg       0.70      0.71      0.65       865
+
+
+accuracy: 0.706
+f1 score: 0.650
+AdaBoost
+Score on dataset...
+
+Confusion Matrix:
+ [[528  51]
+ [222  64]]
+
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.70      0.91      0.79       579
+           1       0.56      0.22      0.32       286
+
+    accuracy                           0.68       865
+   macro avg       0.63      0.57      0.56       865
+weighted avg       0.66      0.68      0.64       865
+
+
+accuracy: 0.684
+f1 score: 0.637
+Naive Bayes
+Score on dataset...
+
+Confusion Matrix:
+ [[349 230]
+ [134 152]]
+
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.72      0.60      0.66       579
+           1       0.40      0.53      0.46       286
+
+    accuracy                           0.58       865
+   macro avg       0.56      0.57      0.56       865
+weighted avg       0.62      0.58      0.59       865
+
+
+accuracy: 0.579
+f1 score: 0.590
+QDA
+C:\Users\hp\AppData\Local\Programs\Python\Python37\lib\site-packages\sklearn\discriminant_analysis.py:691: UserWarning: Variables are collinear
+  warnings.warn("Variables are collinear")
+Score on dataset...
+
+Confusion Matrix:
+ [[287 292]
+ [141 145]]
+
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.67      0.50      0.57       579
+           1       0.33      0.51      0.40       286
+
+    accuracy                           0.50       865
+   macro avg       0.50      0.50      0.49       865
+weighted avg       0.56      0.50      0.51       865
+
+
+accuracy: 0.499
+f1 score: 0.514
