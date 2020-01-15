@@ -87,6 +87,23 @@ save_dir = here + "\\sentences&def.pkl"
 strings = pickle.load(open(save_dir, "rb"))
 dfWithoutEmbedding = pd.DataFrame(strings, columns=['sentence', 'value'])
 
+<<<<<<< HEAD
+print("print 5 lines from train data:\n")
+for sentence, val in strings:
+    # sentence : string of words
+    # vale : 1 -> has def , 0 -> no def
+    # ur works start from here gg,hf,gl
+    #print(type(sentence))
+    #print(sentence,val)
+    loop_counter = loop_counter + 1
+    #if loop_counter > 5:
+    #    break
+
+print(loop_counter)
+loop_counter = 0
+print("#######################################")
+print("print 5 lines from test data:\n")
+=======
 
 def prepareTrainAndtest(df, yValues):
     # Specify train/valid/test size.
@@ -96,6 +113,7 @@ def prepareTrainAndtest(df, yValues):
     train_X, test_X, train_y, test_y = train_test_split(df, yValues,
                                                         test_size=test_size,
                                                         random_state=1,)
+>>>>>>> 528e1b59952a7c99984738dc722170a4ce1541bb
 
     print('Shape of train_X: {}'.format(train_X.shape))
     print('Shape of test_X: {}'.format(test_X.shape))

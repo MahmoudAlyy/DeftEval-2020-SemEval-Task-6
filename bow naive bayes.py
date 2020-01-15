@@ -52,12 +52,11 @@ for sentence,val in strings:
    
 #print(dict)
 
-### print most common word
+### print 20 most common word
 w_name = here + "\\common_words.txt"
 
 f= open(w_name, "w+")
 d = Counter(dict)
-print(type(d))
 for k, v in d.most_common(20):
     f.write (k+" : "+str(v)+"\n")
 
@@ -76,8 +75,6 @@ def try_loop(i,n):
     
     train_x = vectorizer.fit_transform(df.sentence)
     
-    #print(train_x[1,:])
-
 
     w_name = here + "\\vectorizer vocab.txt"
     d2 = vectorizer.vocabulary_
@@ -88,9 +85,6 @@ def try_loop(i,n):
     train_x = train_x.toarray()
 
     train_y = df.value
-
- 
-
 
 
     ### Get test data
