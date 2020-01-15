@@ -6,22 +6,6 @@ import re
 import pickle
 from nltk.corpus import stopwords
 
-
-here = os.path.dirname(os.path.realpath(__file__))
-
-#here2 = here + "\\New"
-#here2 = here + "\\temp"
-
-here2 = here + "\\task1_converted"
-w_name = here + "\\sentences&def.txt"
-save_dir = here + "\\sentences&def.pkl"
-
-
-# here2 = here + "\\test_data_converted"
-# w_name = here + "\\TEST_sentences&def.txt"
-# save_dir = here + "\\TEST_sentences&def.pkl"
-
-
 def transform(here2,w_name,save_dir):
 
     ### check if number exist in a string an replace it with <num>

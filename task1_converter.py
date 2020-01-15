@@ -31,6 +31,7 @@ def write_converted(source_file, output_file):
     Walks through the conll-type files and converts them to sentence classification format ([SENT]  [BIN_VAL]
     """
     sentences = pd.DataFrame(columns=['sentence', 'label'])
+
     with open(source_file,encoding="utf-8") as source_text:
         has_def = 0
         new_sentence = ''
@@ -54,8 +55,7 @@ def write_converted(source_file, output_file):
     sentences.to_csv(output_file, header=False, index=False, quoting=csv.QUOTE_ALL, sep='\t')
 
 if __name__ == '__main__':
-
-    source = "C:\\Files\\git\\DeftEval-2020-SemEval-Task-6\\deft_files\\dev"
-    dest = "C:\\Files\\git\\DeftEval-2020-SemEval-Task-6\\test_data_converted"
-    #convert(Path(sys.argv[1]), Path(sys.argv[2]))
-    convert(Path(source),Path(dest))
+    convert(Path(sys.argv[1]), Path(sys.argv[2]))
+    # source = "data/deft_files"
+    # dest = "data/task1"
+    # convert(Path(source),Path(dest))

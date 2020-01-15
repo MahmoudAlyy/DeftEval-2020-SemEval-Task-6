@@ -1,6 +1,0 @@
-" 740 . An example is the animal herpesviruses , including herpes simplex viruses , the cause of oral and genital herpes in humans ."	"0"
-" In a process called latency , these viruses can exist in nervous tissue for long periods of time without producing new virions , only to leave latency periodically and cause lesions in the skin where the virus replicates ."	"1"
-" Even though there are similarities between lysogeny and latency , the term lysogenic cycle is usually reserved to describe bacteriophages ."	"0"
-" 743 . Examples of acute viral diseases are the common cold and influenza ."	"0"
-" Other viruses cause long - term chronic infections , such as the virus causing hepatitis C , whereas others , like herpes simplex virus , only cause intermittent symptoms ."	"0"
-" Still other viruses , such as human herpesviruses 6 and 7 , which in some cases can cause the minor childhood disease roseola , often successfully cause productive infections without causing any symptoms at all in the host , and thus we say these patients have an asymptomatic infection ."	"1"
