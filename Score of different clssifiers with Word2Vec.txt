@@ -1,0 +1,268 @@
+logistic
+C:\Users\hp\AppData\Local\Programs\Python\Python37\lib\site-packages\sklearn\linear_model\_sag.py:330: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+Performance of Mean Word Vector on testing dataset...
+Score on dataset...
+
+Confusion Matrix:
+ [[3555   18]
+ [1858   14]]
+
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.66      0.99      0.79      3573
+           1       0.44      0.01      0.01      1872
+
+    accuracy                           0.66      5445
+   macro avg       0.55      0.50      0.40      5445
+weighted avg       0.58      0.66      0.52      5445
+
+
+accuracy: 0.655
+f1 score: 0.524
+SGD
+-- Epoch 1
+Norm: 0.58, NNZs: 100, Bias: -1.044260, T: 12705, Avg. loss: 0.705416
+Total training time: 0.02 seconds.
+-- Epoch 2
+Norm: 0.64, NNZs: 100, Bias: -1.024752, T: 25410, Avg. loss: 0.674453
+Total training time: 0.03 seconds.
+-- Epoch 3
+Norm: 0.63, NNZs: 100, Bias: -1.017447, T: 38115, Avg. loss: 0.669563
+Total training time: 0.20 seconds.
+-- Epoch 4
+Norm: 0.62, NNZs: 100, Bias: -1.025552, T: 50820, Avg. loss: 0.666813
+Total training time: 0.22 seconds.
+-- Epoch 5
+Norm: 0.62, NNZs: 100, Bias: -1.016213, T: 63525, Avg. loss: 0.664981
+Total training time: 0.23 seconds.
+-- Epoch 6
+Norm: 0.63, NNZs: 100, Bias: -1.030136, T: 76230, Avg. loss: 0.663622
+Total training time: 0.24 seconds.
+-- Epoch 7
+Norm: 0.64, NNZs: 100, Bias: -1.011777, T: 88935, Avg. loss: 0.662741
+Total training time: 0.25 seconds.
+-- Epoch 8
+Norm: 0.64, NNZs: 100, Bias: -0.989591, T: 101640, Avg. loss: 0.661985
+Total training time: 0.26 seconds.
+-- Epoch 9
+Norm: 0.66, NNZs: 100, Bias: -1.008281, T: 114345, Avg. loss: 0.661136
+Total training time: 0.28 seconds.
+-- Epoch 10
+Norm: 0.68, NNZs: 100, Bias: -0.999863, T: 127050, Avg. loss: 0.660610
+Total training time: 0.30 seconds.
+-- Epoch 11
+Norm: 0.69, NNZs: 100, Bias: -1.002844, T: 139755, Avg. loss: 0.660207
+Total training time: 0.32 seconds.
+Convergence after 11 epochs took 0.33 seconds
+Performance of Mean Word Vector on testing dataset...
+Score on dataset...
+
+Confusion Matrix:
+ [[3573    0]
+ [1872    0]]
+C:\Users\hp\AppData\Local\Programs\Python\Python37\lib\site-packages\sklearn\metrics\_classification.py:1268: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.66      1.00      0.79      3573
+           1       0.00      0.00      0.00      1872
+
+    accuracy                           0.66      5445
+   macro avg       0.33      0.50      0.40      5445
+weighted avg       0.43      0.66      0.52      5445
+
+
+accuracy: 0.656
+f1 score: 0.520
+Decision Tree
+Score on dataset...
+
+Confusion Matrix:
+ [[2950  623]
+ [1302  570]]
+
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.69      0.83      0.75      3573
+           1       0.48      0.30      0.37      1872
+
+    accuracy                           0.65      5445
+   macro avg       0.59      0.57      0.56      5445
+weighted avg       0.62      0.65      0.62      5445
+
+
+accuracy: 0.646
+f1 score: 0.623
+Random Forest
+Score on dataset...
+
+Confusion Matrix:
+ [[3573    0]
+ [1872    0]]
+C:\Users\hp\AppData\Local\Programs\Python\Python37\lib\site-packages\sklearn\metrics\_classification.py:1268: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.66      1.00      0.79      3573
+           1       0.00      0.00      0.00      1872
+
+    accuracy                           0.66      5445
+   macro avg       0.33      0.50      0.40      5445
+weighted avg       0.43      0.66      0.52      5445
+
+
+accuracy: 0.656
+f1 score: 0.520
+Neural Net
+Score on dataset...
+
+Confusion Matrix:
+ [[3573    0]
+ [1872    0]]
+C:\Users\hp\AppData\Local\Programs\Python\Python37\lib\site-packages\sklearn\metrics\_classification.py:1268: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.66      1.00      0.79      3573
+           1       0.00      0.00      0.00      1872
+
+    accuracy                           0.66      5445
+   macro avg       0.33      0.50      0.40      5445
+weighted avg       0.43      0.66      0.52      5445
+
+
+accuracy: 0.656
+f1 score: 0.520
+AdaBoost
+Score on dataset...
+
+Confusion Matrix:
+ [[3325  248]
+ [1588  284]]
+
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.68      0.93      0.78      3573
+           1       0.53      0.15      0.24      1872
+
+    accuracy                           0.66      5445
+   macro avg       0.61      0.54      0.51      5445
+weighted avg       0.63      0.66      0.60      5445
+
+
+accuracy: 0.663
+f1 score: 0.595
+Naive Bayes
+Score on dataset...
+
+Confusion Matrix:
+ [[1193 2380]
+ [ 470 1402]]
+
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.72      0.33      0.46      3573
+           1       0.37      0.75      0.50      1872
+
+    accuracy                           0.48      5445
+   macro avg       0.54      0.54      0.48      5445
+weighted avg       0.60      0.48      0.47      5445
+
+
+accuracy: 0.477
+f1 score: 0.470
+Score on dataset...
+
+Confusion Matrix:
+ [[1669 1904]
+ [ 438 1434]]
+
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.79      0.47      0.59      3573
+           1       0.43      0.77      0.55      1872
+
+    accuracy                           0.57      5445
+   macro avg       0.61      0.62      0.57      5445
+weighted avg       0.67      0.57      0.57      5445
+
+
+accuracy: 0.570
+f1 score: 0.575
+
+Nearest Neighbors
+Score on dataset...
+
+Confusion Matrix:
+ [[2626  947]
+ [1022  850]]
+
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.72      0.73      0.73      3573
+           1       0.47      0.45      0.46      1872
+
+    accuracy                           0.64      5445
+   macro avg       0.60      0.59      0.60      5445
+weighted avg       0.63      0.64      0.64      5445
+
+
+accuracy: 0.638
+f1 score: 0.637
+
+
+Linear SVM
+Score on dataset...
+
+Confusion Matrix:
+ [[3573    0]
+ [1872    0]]
+
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.66      1.00      0.79      3573
+           1       0.00      0.00      0.00      1872
+
+    accuracy                           0.66      5445
+   macro avg       0.33      0.50      0.40      5445
+weighted avg       0.43      0.66      0.52      5445
+
+
+accuracy: 0.656
+f1 score: 0.520
+
+
+RBF SVM
+Score on dataset...
+
+Confusion Matrix:
+ [[3573    0]
+ [1872    0]]
+
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.66      1.00      0.79      3573
+           1       0.00      0.00      0.00      1872
+
+    accuracy                           0.66      5445
+   macro avg       0.33      0.50      0.40      5445
+weighted avg       0.43      0.66      0.52      5445
+
+
+accuracy: 0.656
+f1 score: 0.520
