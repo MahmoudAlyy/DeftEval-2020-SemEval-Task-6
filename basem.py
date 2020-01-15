@@ -19,11 +19,12 @@ for sentence, val in strings:
     # vale : 1 -> has def , 0 -> no def
     # ur works start from here gg,hf,gl
     #print(type(sentence))
-    print(sentence,val)
+    #print(sentence,val)
     loop_counter = loop_counter + 1
-    if loop_counter > 5:
-        break
+    #if loop_counter > 5:
+    #    break
 
+print(loop_counter)
 loop_counter = 0
 print("#######################################")
 print("print 5 lines from test data:\n")

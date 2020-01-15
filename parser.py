@@ -6,22 +6,6 @@ import re
 import pickle
 from nltk.corpus import stopwords
 
-
-here = os.path.dirname(os.path.realpath(__file__))
-
-#here2 = here + "\\New"
-#here2 = here + "\\temp"
-
-here2 = here + "\\task1_converted"
-w_name = here + "\\sentences&def.txt"
-save_dir = here + "\\sentences&def.pkl"
-
-
-# here2 = here + "\\test_data_converted"
-# w_name = here + "\\TEST_sentences&def.txt"
-# save_dir = here + "\\TEST_sentences&def.pkl"
-
-
 def transform(here2,w_name,save_dir):
 
     ### check if number exist in a string an replace it with <num>
@@ -133,27 +117,9 @@ def transform(here2,w_name,save_dir):
             defc  = defc + 1
         elif v == 0:
             nodefc = nodefc + 1
-        else:
-            print("?????????????????????")
 
     print("def = ",defc)
     print("no def = ",nodefc)
-
-
-    ### TF IDF CODE ### 
-    # tfidf = TfidfVectorizer(min_df=2 , max_df=0.5 , ngram_range=(1,3))
-    # features = tfidf.fit_transform(st for st,v in strings)
-
-    # pd.DataFrame(
-    #     features.todense(),
-    #     columns=tfidf.get_feature_names()
-    # )
-
-
-    # print(pd.DataFrame(
-    #     features.todense(),
-    #     columns=tfidf.get_feature_names()
-    # ))
 
 
 
@@ -176,7 +142,7 @@ if __name__ == "__main__":
     #here2 = here + "\\New"
     #here2 = here + "\\temp"
 
-    here2 = here + "\\task1_converted"
+    here2 = here + "\\train_data_converted"
     w_name = here + "\\sentences&def.txt"
     save_dir = here + "\\sentences&def.pkl"
 
