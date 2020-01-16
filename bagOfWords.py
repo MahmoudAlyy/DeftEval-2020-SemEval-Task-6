@@ -19,7 +19,8 @@ from sklearn.naive_bayes import BernoulliNB
 
 
 ### Get train data 
-save_dir = "data/task1/combined/train_data.pkl"
+here = os.path.dirname(os.path.realpath(__file__))
+save_dir = here+ "/data/task1/combined/train_data.pkl"
 strings = pickle.load(open(save_dir, "rb"))
 
 dict = {}
@@ -52,7 +53,8 @@ for sentence,val in strings:
 #print(dict)
 
 ### print 20 most common word
-w_name = "testing/common_words.txt"
+
+w_name = here + "/testing/common_words.txt"
 
 f= open(w_name, "w+")
 d = Counter(dict)
@@ -66,16 +68,18 @@ for k, v in d.most_common(20):
 df = pd.DataFrame(strings, columns=['sentence', 'value'])
 
 #####################################  max feautres ????????????#########################
-def try_loop(i,n):
+def try_loop(i,n,mindf):
     max_features_value = i
 
-    vectorizer = CountVectorizer( max_features=max_features_value,ngram_range=(1,n)) 
+    #vectorizer = CountVectorizer( max_features=max_features_value,ngram_range=(1,n), min_df=mindf) 
+    vectorizer = CountVectorizer(ngram_range=(1, n), min_df=mindf)
+
     #vectorizer = TfidfVectorizer( max_features=max_features_value ,  ngram_range=(1,n))
     
     train_x = vectorizer.fit_transform(df.sentence)
     
-
-    w_name = "testing/vectorizer vocab.txt"
+    
+    w_name = here +"/testing/vectorizer vocab.txt"
     d2 = vectorizer.vocabulary_
     f = open(w_name, "w+")
     for k in d2.keys():
@@ -87,7 +91,7 @@ def try_loop(i,n):
 
 
     ### Get test data
-    save_dir = "data/task1/combined/dev_data.pkl"
+    save_dir = here +"/data/task1/combined/dev_data.pkl"
     test_strings = pickle.load(open(save_dir, "rb"))
 
     test_df = pd.DataFrame(test_strings, columns=['sentence', 'value'])
@@ -102,29 +106,34 @@ def try_loop(i,n):
     classifier = naive.fit(train_x, train_y)
     predict = classifier.predict(test_x)
 
-    cm = confusion_matrix(predict, test_y)
+    cm = confusion_matrix(test_y,predict)
+    #print(cm)
 
 
     accuracy = cm.trace()/cm.sum()
     #print(accuracy,i,n)
-    return accuracy
+    print("accuracy =",accuracy_score(test_y,predict))
+    print("f1 =",f1_score(test_y, predict, average='weighted'))
+    return(f1_score(test_y,predict,average='weighted'))
 
 
 
-# w_name = "testing/logs/log 200-300 1-4 chem.txt"
+# w_name = here + "/testing/logs/f1 tarek min df.txt"
 # f = open(w_name, "w+")
 
-# for i in range(200,300):
+# for i in range(100,400):
 #     print(i)
-#     for n in range(1,5):
+#     for n in range(1,4):
 #         try:
-#             acc = try_loop(i,n)
+#             #acc = try_loop(i,n,1)
+#             acc = try_loop(1, n, i/1000)
+
 #         except:
 #             print("Something went wrong")
 #         else:
 #             #print("Nothing went wrong")
-#             f.write(str(acc)+" i = "+str(i)+"  n = "+str(n)+"\n")
+#             f.write("f1 : "+str(acc)+" min df = "+str(i/1000)+"  n = "+str(n)+"\n")
 
-#             #print(acc)
+#             print(acc)
 
-print(try_loop(267,2))
+try_loop(1,2,0.132)

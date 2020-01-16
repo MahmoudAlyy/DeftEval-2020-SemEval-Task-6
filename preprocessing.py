@@ -5,7 +5,9 @@ import os
 import re
 import pickle
 import nltk
-nltk.download('stopwords')
+#nltk.download('stopwords')
+nltk.download('averaged_perceptron_tagger')
+
 from nltk.corpus import stopwords
 
 
@@ -63,7 +65,7 @@ def transform(path, w_name, save_dir):
             ### REMOVING link and num ##############################
             x[1] = x[1].replace('<link>', ' ')  # 1191 413
             x[1] = x[1].replace('<num>', ' ')   # 2713 682
-            # x[1] = x[1].replace('<chem>', ' ')  # 1191 413
+            x[1] = x[1].replace('<chem>', ' ')  # 1191 413
 
             # remove single char form string
             x[1] = re.sub(r"\b[a-zA-Z]\b", "", x[1])
@@ -86,7 +88,20 @@ def transform(path, w_name, save_dir):
 
             sentf = sentf.join(sentence)
 
-            strings.append((sentf, int(x[len(x)-2])))
+            ### adding tarek stuff
+
+            sentf = nltk.word_tokenize(sentf)
+            tsentence = []
+            sentf = nltk.pos_tag(sentf)
+            for word, tag in sentf:
+                    tsentence.append(tag)
+            final = " ".join(tsentence)
+
+            ### end of tarek
+
+            #final = sentf
+
+            strings.append((final, int(x[len(x)-2])))
             line = f.readline()
 
     defc = 0
@@ -114,14 +129,15 @@ def transform(path, w_name, save_dir):
 
 if __name__ == "__main__":
 
-    folderPath = "data/task1/train"
-    generatedTxtFile = "data/task1/combined/train_data.txt"
-    generatedPklFile = "data/task1/combined/train_data.pkl"
+    here = os.path.dirname(os.path.realpath(__file__))
+    folderPath = here + "/data/task1/train"
+    generatedTxtFile = here + "/data/task1/combined/train_data.txt"
+    generatedPklFile = here + "/data/task1/combined/train_data.pkl"
 
     transform(folderPath, generatedTxtFile, generatedPklFile)
 
-    folderPath = "data/task1/dev"
-    generatedTxtFile = "data/task1/combined/dev_data.txt"
-    generatedPklFile = "data/task1/combined/dev_data.pkl"
+    folderPath = here + "/data/task1/dev"
+    generatedTxtFile = here + "/data/task1/combined/dev_data.txt"
+    generatedPklFile = here + "/data/task1/combined/dev_data.pkl"
 
     transform(folderPath, generatedTxtFile, generatedPklFile)
