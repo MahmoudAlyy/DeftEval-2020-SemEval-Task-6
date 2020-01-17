@@ -2,6 +2,9 @@ import pickle
 import os
 import math
 import numpy as np
+import matplotlib.pyplot as plt
+from sklearn import svm, datasets
+from sklearn.metrics import plot_confusion_matrix
 import pandas as pd
 from gensim.models import Word2Vec
 from sklearn.decomposition import PCA
@@ -79,10 +82,9 @@ def sk_evaluate(model, feature, label, label_names):
 
 
 # Get train data
-here = os.path.dirname(os.path.realpath(__file__))
-save_dir = here + "/data/task1/combined/train_data_w2v.pkl"
+save_dir = "data/task1/combined/train_data_w2v.pkl"
 strings = pickle.load(open(save_dir, "rb"))
-with open(here +"/data/task1/combined/train_data_w2v.txt") as f:
+with open("data/task1/combined/train_data_w2v.txt") as f:
     sentences = f.readlines()
 newArr = []
 for sen in sentences:
@@ -94,18 +96,18 @@ for sen in sentences:
 # print(newArr)
 
 
-save_dir = here + "/data/task1/combined/train_data_w2v.pkl"
+save_dir = "data/task1/combined/train_data_w2v.pkl"
 strings = pickle.load(open(save_dir, "rb"))
 dfWithoutEmbedding = pd.DataFrame(strings, columns=['sentence', 'value'])
 
 
-test_dir = here+"/data/task1/combined/dev_data_w2v.pkl"
+test_dir = "data/task1/combined/dev_data_w2v.pkl"
 testStrings = pickle.load(open(test_dir, "rb"))
 testData = pd.DataFrame(testStrings, columns=['sentence', 'value'])
 test_sentences = testData.sentence
 #print(test_sentences.split(" "))
 test_y = testData.value
-with open(here + "/data/task1/combined/dev_data_w2v.txt") as f:
+with open("data/task1/combined/dev_data_w2v.txt") as f:
     testsentences = f.readlines()
 newArr2 = []
 for sen in testsentences:
@@ -184,7 +186,7 @@ print(word_model)
 words = list(word_model.wv.vocab)
 # print(words)
 # access vector for one word
-print(word_model['biology'])
+# print(word_model['biology'])
 # save model
 word_model.save('word_model.bin')
 # load model
@@ -222,7 +224,8 @@ for name, clf in zip(names, classifiers):
     clf.fit(train_X, train_y)
     _, _ = sk_evaluate(clf, test_X, test_y, label_names=None)
 """
-"""tfidf"""
+
+# tfidf
 tfidf_vec_tr = help.TfidfEmbeddingVectorizer(word_model)
 
 tfidf_vec_tr.fit(newArr)  # fit tfidf model first
@@ -241,8 +244,41 @@ tfidf_doc_vec = pd.read_csv('tfidf_doc_vec.csv', header=None)
 
 train_X = tfidf_doc_vec
 test_X = test_tfidf_doc_vec
-
+"""
 for name, clf in zip(names, classifiers):
     print(name)
     clf.fit(train_X, train_y)
+    _, _ = sk_evaluate(clf, train_X, train_y, label_names=None)
+
+    titles_options = [("Confusion matrix, without normalization", None),
+                      ("Normalized confusion matrix", 'true')]
+    for title, normalize in titles_options:
+        disp = plot_confusion_matrix(clf, train_X, train_y,
+                                     display_labels=[0, 1],
+                                     normalize=normalize)
+        disp.ax_.set_title(title)
+
+        print(title)
+        print(disp.confusion_matrix)
+
+    plt.show()
+"""
+alphas = [0.0001, 0.001, 0.01, 0.1, 1, 10]
+for alpha in alphas:
+    clf = MLPClassifier(alpha=alpha, max_iter=1000)
+    print(alpha)
+    clf.fit(train_X, train_y)
     _, _ = sk_evaluate(clf, test_X, test_y, label_names=None)
+
+    titles_options = [("Confusion matrix, without normalization", None),
+                      ("Normalized confusion matrix", 'true')]
+    for title, normalize in titles_options:
+        disp = plot_confusion_matrix(clf, test_X, test_y,
+                                     display_labels=[0, 1],
+                                     normalize=normalize)
+        disp.ax_.set_title(title)
+
+        print(title)
+        print(disp.confusion_matrix)
+
+    plt.show()

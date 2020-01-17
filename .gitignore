@@ -1,0 +1,4 @@
+doc_vec.csv
+tfidf_doc_vec.csv
+word_model.bin
+model.bin
