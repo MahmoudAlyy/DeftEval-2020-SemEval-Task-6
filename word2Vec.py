@@ -22,13 +22,19 @@ from sklearn.ensemble import RandomForestClassifier, AdaBoostClassifier
 from sklearn.naive_bayes import GaussianNB
 from sklearn.discriminant_analysis import QuadraticDiscriminantAnalysis
 from sklearn.model_selection import train_test_split
+from sklearn.neural_network import MLPClassifier
 import WordEmbeddingHelperFunctions as help
-
-names = ["Logistic Regression", "SGD", "Nearest Neighbors", "Linear SVM", "RBF SVM",
+#"Linear SVM", "RBF SVM",
+names = ["MLP", "Logistic Regression", "SGD", "Nearest Neighbors",
          "Decision Tree", "Random Forest", "Neural Net", "AdaBoost",
          "Naive Bayes", "QDA"]
 
+# SVC(kernel="linear", C=0.025),
+# SVC(gamma=2, C=1),
 classifiers = [
+
+    MLPClassifier(alpha=1e-05, hidden_layer_sizes=(5, 2), random_state=1,
+                  solver='lbfgs'),
     LogisticRegression(
         random_state=1, multi_class='multinomial', solver='saga'),
     SGDClassifier(loss='hinge',
@@ -37,11 +43,7 @@ classifiers = [
                   random_state=1,
                   learning_rate='invscaling',
                   eta0=1),
-    KNeighborsClassifier(3),
-    SVC(kernel="linear", C=0.025),
-    SVC(gamma=2, C=1),
     DecisionTreeClassifier(max_depth=5),
-    RandomForestClassifier(max_depth=5, n_estimators=10, max_features=1),
     MLPClassifier(alpha=1, max_iter=1000),
     AdaBoostClassifier(),
     GaussianNB(),
@@ -144,11 +146,19 @@ def prepareTrainAndtest(df, yValues):
 
 
 # train models
-word_model = Word2Vec(newArr, min_count=1)
+word_model = Word2Vec(newArr, min_count=2,
+                      window=5,
+                      size=300,
+                      workers=4,
+                      iter=200)
 mean_vec_tr = help.MeanEmbeddingVectorizer(word_model)
 doc_vec = mean_vec_tr.transform(newArr)
 
-testWords_model = Word2Vec(newArr2, min_count=1)
+testWords_model = Word2Vec(newArr2, min_count=2,
+                           window=5,
+                           size=300,
+                           workers=4,
+                           iter=200)
 mean_vec_tr2 = help.MeanEmbeddingVectorizer(testWords_model)
 testDoc_vec = mean_vec_tr2.transform(newArr2)
 # Save word averaging doc2vec.
@@ -163,7 +173,9 @@ train_X = doc_vec
 test_X = testDoc_vec
 train_y = dfWithoutEmbedding.value
 print('Shape of train_X: {}'.format(train_X.shape))
+print(train_X[0:5])
 print('Shape of test_X: {}'.format(test_X.shape))
+print(train_y[0:5])
 #train_X, test_X, train_y, test_y = prepareTrainAndtest(doc_vec, dfWithoutEmbedding.value)
 # summarize the loaded model
 print(word_model)
@@ -203,6 +215,32 @@ sgd.fit(train_X, train_y)
 print('Performance of Mean Word Vector on testing dataset...')
 _, _ = sk_evaluate(sgd, test_X, test_y, label_names=None)
 """
+"""
+for name, clf in zip(names, classifiers):
+    print(name)
+    clf.fit(train_X, train_y)
+    _, _ = sk_evaluate(clf, test_X, test_y, label_names=None)
+"""
+"""tfidf"""
+tfidf_vec_tr = help.TfidfEmbeddingVectorizer(word_model)
+
+tfidf_vec_tr.fit(newArr)  # fit tfidf model first
+tfidf_doc_vec = tfidf_vec_tr.transform(newArr)
+
+
+test_tfidf_vec_tr = help.TfidfEmbeddingVectorizer(testWords_model)
+
+test_tfidf_vec_tr.fit(newArr2)  # fit tfidf model first
+test_tfidf_doc_vec = test_tfidf_vec_tr.transform(newArr2)
+
+print('Shape of tfidf-word-mean doc2vec...')
+print('Save tfidf-word-mean doc2vec as csv file...')
+np.savetxt('tfidf_doc_vec.csv', tfidf_doc_vec, delimiter=',')
+tfidf_doc_vec = pd.read_csv('tfidf_doc_vec.csv', header=None)
+
+train_X = tfidf_doc_vec
+test_X = test_tfidf_doc_vec
+
 for name, clf in zip(names, classifiers):
     print(name)
     clf.fit(train_X, train_y)
