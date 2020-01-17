@@ -20,7 +20,7 @@ from sklearn.naive_bayes import BernoulliNB
 
 ### Get train data 
 here = os.path.dirname(os.path.realpath(__file__))
-save_dir = here+ "/data/task1/combined/train_data.pkl"
+save_dir = here+ "/data/task1/combined/train_data_bow.pkl"
 strings = pickle.load(open(save_dir, "rb"))
 
 dict = {}
@@ -91,7 +91,7 @@ def try_loop(i,n,mindf):
 
 
     ### Get test data
-    save_dir = here +"/data/task1/combined/dev_data.pkl"
+    save_dir = here +"/data/task1/combined/dev_data_bow.pkl"
     test_strings = pickle.load(open(save_dir, "rb"))
 
     test_df = pd.DataFrame(test_strings, columns=['sentence', 'value'])

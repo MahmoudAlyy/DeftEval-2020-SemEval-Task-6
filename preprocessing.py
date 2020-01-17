@@ -1,18 +1,24 @@
 ### reads form task1_converted and output sentance and value in obj.pkl ###
+import matplotlib.pyplot as plt  # nltk.download('stopwords')
+import numpy as np
 from sklearn.feature_extraction.text import TfidfVectorizer
 import pandas as pd
 import os
 import re
 import pickle
 import nltk
-#nltk.download('stopwords')
-nltk.download('averaged_perceptron_tagger')
+import matplotlib.pyplot as plt
+plt.rcdefaults()
+#nltk.download('averaged_perceptron_tagger')
 
 from nltk.corpus import stopwords
 
+show_variable = -1
 
-def transform(path, w_name, save_dir):
-    strings = []
+
+def transform(path, w_name_bow, save_dir_bow, w_name_w2v, save_dir_w2v):
+    bow_strings = []
+    w2v_strings=[]
     for filename in os.listdir(path):
         f_name = path + "/" + filename
         f = open(f_name, "r", encoding="utf-8")
@@ -90,10 +96,10 @@ def transform(path, w_name, save_dir):
 
             ### adding tarek stuff
 
-            sentf = nltk.word_tokenize(sentf)
+            final = nltk.word_tokenize(sentf)
             tsentence = []
-            sentf = nltk.pos_tag(sentf)
-            for word, tag in sentf:
+            final = nltk.pos_tag(final)
+            for word, tag in final:
                     tsentence.append(tag)
             final = " ".join(tsentence)
 
@@ -101,12 +107,13 @@ def transform(path, w_name, save_dir):
 
             #final = sentf
 
-            strings.append((final, int(x[len(x)-2])))
+            bow_strings.append((final, int(x[len(x)-2])))
+            w2v_strings.append((sentf,int(x[len(x)-2])))
             line = f.readline()
 
     defc = 0
     nodefc = 0
-    for st, v in strings:
+    for st, v in bow_strings:
         if v == 1:
             defc = defc + 1
         elif v == 0:
@@ -115,14 +122,48 @@ def transform(path, w_name, save_dir):
     print("def = ", defc)
     print("no def = ", nodefc)
 
+    ### just ploting
+
+    global show_variable
+    show_variable = show_variable + 1
+    print(show_variable)
+
+    if show_variable == 0:
+        objects = ('Train Def', 'Train NoDef')
+        plt.figure("Train Data")
+
+    elif show_variable == 1:
+        objects = ('Test Def', 'Test NoDef')
+        plt.figure("Test Data")
+
+    y_pos = np.arange(len(objects))
+    performance = [defc,nodefc]
+    plt.bar(y_pos, performance, align='center', alpha=0.5)
+    plt.xticks(y_pos, objects)
+    plt.title('Definiton / No Definition Count')
+
+    plt.ion()
+    plt.show()
+    plt.pause(0.001)
+
+    if show_variable == 1:
+        plt.show(block="True")
+
+    ### plot end
+
     # output to txt file so i can read it with my eyes 0.0 , the start.py reads from pickle obj
-    f = open(w_name, "w+")
-    for item in strings:
+    f = open(w_name_bow, "w+")
+    for item in bow_strings:
+        f.write(item[0]+"\t"+str(item[1])+"\n")
+
+    f = open(w_name_w2v, "w+")
+    for item in w2v_strings: 
         f.write(item[0]+"\t"+str(item[1])+"\n")
 
     # pickle save
 
-    pickle.dump(strings, open(save_dir, "wb"))
+    pickle.dump(bow_strings, open(save_dir_bow, "wb"))
+    pickle.dump(w2v_strings, open(save_dir_w2v, "wb"))
 
 ### END ###
 
@@ -131,13 +172,22 @@ if __name__ == "__main__":
 
     here = os.path.dirname(os.path.realpath(__file__))
     folderPath = here + "/data/task1/train"
-    generatedTxtFile = here + "/data/task1/combined/train_data.txt"
-    generatedPklFile = here + "/data/task1/combined/train_data.pkl"
+    generatedTxtFile = here + "/data/task1/combined/train_data_bow.txt"
+    generatedPklFile = here + "/data/task1/combined/train_data_bow.pkl"
+    generatedTxtFilew2v = here + "/data/task1/combined/train_data_w2v.txt"
+    generatedPklFilew2v = here + "/data/task1/combined/train_data_w2v.pkl"
 
-    transform(folderPath, generatedTxtFile, generatedPklFile)
+    transform(folderPath, generatedTxtFile, generatedPklFile,generatedTxtFilew2v, generatedPklFilew2v)
 
     folderPath = here + "/data/task1/dev"
-    generatedTxtFile = here + "/data/task1/combined/dev_data.txt"
-    generatedPklFile = here + "/data/task1/combined/dev_data.pkl"
+    generatedTxtFile = here + "/data/task1/combined/dev_data_bow.txt"
+    generatedPklFile = here + "/data/task1/combined/dev_data_bow.pkl"
+    generatedTxtFilew2v = here + "/data/task1/combined/dev_data_w2v.txt"
+    generatedPklFilew2v = here + "/data/task1/combined/dev_data_w2v.pkl"
 
-    transform(folderPath, generatedTxtFile, generatedPklFile)
+    transform(folderPath, generatedTxtFile, generatedPklFile, generatedTxtFilew2v, generatedPklFilew2v)
+
+    # objects = ('Train Def', 'Train NoDef', 'Test Def', 'Test NoDef')
+    # y_pos = np.arange(len(objects))
+    # performance = [1]
+    #plt.show(block="True")

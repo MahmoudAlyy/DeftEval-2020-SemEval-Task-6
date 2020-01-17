@@ -79,9 +79,10 @@ def sk_evaluate(model, feature, label, label_names):
 
 
 # Get train data
-save_dir = "data/task1/combined/train_data.pkl"
+here = os.path.dirname(os.path.realpath(__file__))
+save_dir = here + "/data/task1/combined/train_data_w2v.pkl"
 strings = pickle.load(open(save_dir, "rb"))
-with open("data/task1/combined/train_data.txt") as f:
+with open(here +"/data/task1/combined/train_data_w2v.txt") as f:
     sentences = f.readlines()
 newArr = []
 for sen in sentences:
@@ -93,18 +94,18 @@ for sen in sentences:
 # print(newArr)
 
 
-save_dir = "data/task1/combined/train_data.pkl"
+save_dir = here + "/data/task1/combined/train_data_w2v.pkl"
 strings = pickle.load(open(save_dir, "rb"))
 dfWithoutEmbedding = pd.DataFrame(strings, columns=['sentence', 'value'])
 
 
-test_dir = "data/task1/combined/dev_data.pkl"
+test_dir = here+"/data/task1/combined/dev_data_w2v.pkl"
 testStrings = pickle.load(open(test_dir, "rb"))
 testData = pd.DataFrame(testStrings, columns=['sentence', 'value'])
 test_sentences = testData.sentence
 #print(test_sentences.split(" "))
 test_y = testData.value
-with open("data/task1/combined/dev_data.txt") as f:
+with open(here + "/data/task1/combined/dev_data_w2v.txt") as f:
     testsentences = f.readlines()
 newArr2 = []
 for sen in testsentences:
