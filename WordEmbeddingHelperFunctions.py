@@ -126,3 +126,4 @@ class TfidfEmbeddingVectorizer(object):
                 array of average word vector in shape (len(docs),)
         """
         return np.vstack([self.word_average(sent) for sent in docs])
+
