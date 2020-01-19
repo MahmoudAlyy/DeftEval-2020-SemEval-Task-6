@@ -1,32 +1,98 @@
-nn : 5
-vbz : 31
-jj : 1
-nns : 13
-rb : 19
-vbp : 28
-nn vbz : 12
-jj nns : 4
-vbp nn : 30
-nn nns : 8
-nns vbp : 18
-vbp jj : 29
-nns nn : 15
-vbn : 26
-jj nn : 3
-nn nn : 7
-vb : 21
-nn jj : 6
-vbg : 24
-nns jj : 14
-nn vbn : 11
-jj jj : 2
-rb jj : 20
-in : 0
-vbn nn : 27
-vbd : 22
-nn vbd : 10
-nns vbd : 17
-vbd jj : 23
-nn rb : 9
-vbg nn : 25
-nns nns : 16
+nn : 22
+vbz : 93
+jj : 10
+nns : 39
+rb : 54
+vbp : 86
+nn vbz : 36
+vbz jj : 94
+jj nns : 13
+nns rb : 46
+rb vbp : 63
+vbp nn : 88
+nn nns : 29
+nns vbp : 51
+vbp jj : 87
+nns nn : 44
+vbn : 81
+rb nns : 57
+rb vbn : 62
+vbn jj : 82
+jj nn : 12
+nn nn : 27
+md : 20
+vb : 66
+rb nn : 56
+nn jj : 25
+nns md : 43
+md vb : 21
+vb nns : 69
+nns vbn : 50
+vbg : 76
+nn vbg : 33
+vbg nns : 79
+nns jj : 42
+nn vbn : 34
+jj vbg : 16
+vbg jj : 77
+jj jj : 11
+rb jj : 55
+cd : 0
+cd nns : 3
+dt : 4
+in : 6
+dt nn : 5
+nn in : 24
+vbn nn : 83
+vbd : 70
+nn vbd : 32
+vbd nn : 72
+nns vbg : 49
+nn vb : 31
+vb nn : 68
+nn vbp : 35
+nns vbd : 48
+vbd jj : 71
+nn rb : 30
+rb vbd : 60
+vbg nn : 78
+nnp : 37
+nnp nn : 38
+nn nnp : 28
+rbr : 65
+nns nns : 45
+vbn nns : 84
+in jj : 7
+vb jj : 67
+vbz nn : 95
+rb rb : 58
+cd jj : 1
+vbp nns : 89
+vbd nns : 73
+in nns : 9
+jjr : 17
+vbd rb : 74
+rb vbg : 61
+vbz nns : 96
+jjs : 19
+vbp vbn : 92
+nns in : 41
+cd nn : 2
+nns vbz : 52
+nn md : 26
+vbp rb : 90
+jj rb : 14
+vbn rb : 85
+vbd vbg : 75
+nns cd : 40
+nns vb : 47
+jjr nn : 18
+in nn : 8
+nn cd : 23
+vbg vbg : 80
+vbp vbg : 91
+vbz rb : 97
+rb vb : 59
+rb vbz : 64
+jj vbd : 15
+prp : 53

@@ -1,4 +1,3 @@
-from sklearn.metrics import confusion_matrix
 import pandas as pd
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.feature_extraction.text import TfidfVectorizer
@@ -12,7 +11,8 @@ from nltk.corpus import stopwords
 
 from sklearn.model_selection import train_test_split,StratifiedKFold
 from sklearn import metrics
-from sklearn.metrics import accuracy_score, f1_score
+from sklearn.metrics import f1_score, accuracy_score, classification_report, confusion_matrix
+
 
 from sklearn.naive_bayes import MultinomialNB
 from sklearn.naive_bayes import BernoulliNB
@@ -71,12 +71,17 @@ df = pd.DataFrame(strings, columns=['sentence', 'value'])
 def try_loop(i,n,mindf):
     max_features_value = i
 
-    #vectorizer = CountVectorizer( max_features=max_features_value,ngram_range=(1,n), min_df=mindf) 
-    vectorizer = CountVectorizer(ngram_range=(1, n), min_df=mindf)
+    
+    vectorizer = CountVectorizer( max_features=max_features_value,ngram_range=(1,n), min_df=mindf) 
+    print("i = ", i, " n-grams 1 -", n, " :")
+
+
+    #vectorizer = CountVectorizer(ngram_range=(1, n), min_df=mindf)
 
     #vectorizer = TfidfVectorizer( max_features=max_features_value ,  ngram_range=(1,n))
     
     train_x = vectorizer.fit_transform(df.sentence)
+    print("len of features: ", len(vectorizer.vocabulary_))
     
     
     w_name = here +"/testing/vectorizer vocab.txt"
@@ -112,28 +117,37 @@ def try_loop(i,n,mindf):
 
     accuracy = cm.trace()/cm.sum()
     #print(accuracy,i,n)
-    print("accuracy =",accuracy_score(test_y,predict))
-    print("f1 =",f1_score(test_y, predict, average='weighted'))
+    # print(cm)
+    # print("accuracy =",accuracy_score(test_y,predict))
+    # print("f1 =",f1_score(test_y, predict, average='weighted'))
+
+    print('Score on dataset...\n')
+    print('Confusion Matrix:\n', confusion_matrix(test_y, predict))
+    print('\nClassification Report:\n', classification_report(
+        test_y, predict))
+    print('\naccuracy: {:.3f}'.format(accuracy_score(test_y, predict)))
+    print('f1 score: {:.3f}'.format(f1_score(test_y, predict, average='weighted')))
+
     return(f1_score(test_y,predict,average='weighted'))
 
 
 
-# w_name = here + "/testing/logs/f1 tarek min df.txt"
+# w_name = here + "/testing/logs/f1 final 1-250.txt"
 # f = open(w_name, "w+")
 
-# for i in range(100,400):
+# for i in range(2,250):
 #     print(i)
 #     for n in range(1,4):
 #         try:
-#             #acc = try_loop(i,n,1)
-#             acc = try_loop(1, n, i/1000)
+#             acc = try_loop(i,n,1)
+#             #acc = try_loop(1, n, i/1000)
 
 #         except:
 #             print("Something went wrong")
 #         else:
 #             #print("Nothing went wrong")
-#             f.write("f1 : "+str(acc)+" min df = "+str(i/1000)+"  n = "+str(n)+"\n")
+#             f.write("f1 : "+str(acc)+" i = "+str(i)+"  n = "+str(n)+"\n")
+#             #f.write("f1 : "+str(acc)+" min df = "+str(i/1000)+"  n = "+str(n)+"\n")
 
-#             print(acc)
+try_loop(98,2,1)
 
-try_loop(1,2,0.132)

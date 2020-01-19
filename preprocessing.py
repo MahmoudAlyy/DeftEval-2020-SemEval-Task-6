@@ -187,7 +187,4 @@ if __name__ == "__main__":
 
     transform(folderPath, generatedTxtFile, generatedPklFile, generatedTxtFilew2v, generatedPklFilew2v)
 
-    # objects = ('Train Def', 'Train NoDef', 'Test Def', 'Test NoDef')
-    # y_pos = np.arange(len(objects))
-    # performance = [1]
-    #plt.show(block="True")
+
