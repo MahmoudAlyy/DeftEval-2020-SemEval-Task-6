@@ -244,7 +244,7 @@ tfidf_doc_vec = pd.read_csv('tfidf_doc_vec.csv', header=None)
 
 train_X = tfidf_doc_vec
 test_X = test_tfidf_doc_vec
-"""
+
 for name, clf in zip(names, classifiers):
     print(name)
     clf.fit(train_X, train_y)
@@ -263,22 +263,22 @@ for name, clf in zip(names, classifiers):
 
     plt.show()
 """
-alphas = [0.0001, 0.001, 0.01, 0.1, 1, 10]
-for alpha in alphas:
-    clf = MLPClassifier(alpha=alpha, max_iter=1000)
-    print(alpha)
-    clf.fit(train_X, train_y)
-    _, _ = sk_evaluate(clf, test_X, test_y, label_names=None)
+"""
+clf = MLPClassifier(alpha=10, max_iter=1000, hidden_layer_sizes=(5, 2), random_state=1,
+                    solver='lbfgs')
+# print(alpha)
+clf.fit(train_X, train_y)
+_, _ = sk_evaluate(clf, test_X, test_y, label_names=None)
 
-    titles_options = [("Confusion matrix, without normalization", None),
-                      ("Normalized confusion matrix", 'true')]
-    for title, normalize in titles_options:
-        disp = plot_confusion_matrix(clf, test_X, test_y,
-                                     display_labels=[0, 1],
-                                     normalize=normalize)
-        disp.ax_.set_title(title)
+titles_options = [("Confusion matrix, without normalization", None),
+                  ("Normalized confusion matrix", 'true')]
+for title, normalize in titles_options:
+    disp = plot_confusion_matrix(clf, test_X, test_y,
+                                 display_labels=[0, 1],
+                                 normalize=normalize)
+    disp.ax_.set_title(title)
 
-        print(title)
-        print(disp.confusion_matrix)
+    print(title)
+    print(disp.confusion_matrix)
 
-    plt.show()
+plt.show()
