@@ -1,1 +1,1 @@
-# DeftEval-2020-SemEval-2020---Task-6-
+# DeftEval-2020-SemEval-2020---Task-6
